@@ -24,7 +24,7 @@ To be used CompuTec PDC application requires the following:
 
 - PDC Login and Password defined
 
-- Management Board checkbox – checking it is optional; it allows access to **ADD LINK** Manager Board and **ADD LINK** Weight Management Board within the CompuTec PDC application,
+- Management Board checkbox – checking it is optional; it allows access to [Manager Board](./../../user-guide/management-board.md) and [Weight Management Board](./../../user-guide/customization/optional-functions/) within the CompuTec PDC application,
 
 - PDC Form Settings Enabled – checking it is optional; it gives access to Form Settings for CompuTec PDC for a specific employee. This allows choosing columns to be displayed in specific PDC forms and their order.
 
@@ -55,7 +55,9 @@ The Settings tab is divided into three sections:
 ![PDC Connection](./media/pdc-connection.png)
 
 :::caution
+
 For a description of the configuration for the AppEngine plugin version, click here.
+
 :::
 
 Here you have to enter the information needed for connection to SAP Business One.
@@ -70,7 +72,7 @@ Enter the required data in a new window.
 
 4. When you type in the server address, the list of available companies (databases) fills itself automatically. Choose a required company from the drop-down list (click the Get all databases button to refresh the list of companies).
 
-5.,6.Type in the database username and password (needed only to open a preview of Bill of Materials and Manufacturing Orders in Crystal Report form. If these data are not set up, the application asks for authentication to open a preview. **ADD LINK** Here you can check how to set up a database user other than SYSTEM).
+5., 6.Type in the database username and password (needed only to open a preview of Bill of Materials and Manufacturing Orders in Crystal Report form. If these data are not set up, the application asks for authentication to open a preview. **ADD LINK** Here you can check how to set up a database user other than SYSTEM).
 
 7. You can choose **ADD LINK** predefined settings from a drop-down list. The Get Settings button fills up the drop-down list with values from the related database.
 

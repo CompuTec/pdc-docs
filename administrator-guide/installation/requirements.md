@@ -22,11 +22,25 @@ CompuTec PDC requires .NET Framework to work correctly. The minimum version of t
 
 ## Steps required to perform before installation of CompuTec PDC
 
-1. Install **ADD LINK** AppEngine, CompuTec ProcessForce plugin, and CompuTec PDC plugin in corresponding versions.
+1. Install AppEngine, the CompuTec ProcessForce plugin, and the CompuTec PDC plugin in corresponding versions.
 
 2. Install SAP Crystal Reports runtime engine for .NET Framework 32-bit or 64-bit. You can install it from SAP Business One installation package -> Client\CRRuntime or Client.x64\CRRuntime. It is required if the user wants to open Crystal Reports directly from the application.
 
-3. Install CompuTec ProcessForce API 32-bit or 64-bit (you can find it **ADD LINK** here).
+3. Install CompuTec ProcessForce API 32-bit or 64-bit.
+
+## 2.10.20.1: Crystal Reports
+
+From this version, CompuTec PDC supports the new Crystal Reports mechanism. You can find more information here.
+
+Since this version, you need to perform the following preparation to support Crystal Reports:
+
+- Installed SAP APIGateway Service in SLD configuration:
+
+  ![API Gateway](./media/api-gateway.png)
+
+- define an address in CompuTec PDC Settings.
+
+  ![SAP B1 API Gateway](./media/sap-api-gateway.png)
 
 ## CompuTec Labels
 
