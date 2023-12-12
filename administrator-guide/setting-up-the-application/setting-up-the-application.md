@@ -24,7 +24,7 @@ To be used CompuTec PDC application requires the following:
 
 - PDC Login and Password defined
 
-- Management Board checkbox – checking it is optional; it allows access to [Manager Board](./../../user-guide/management-board.md) and [Weight Management Board](./../../user-guide/customization/optional-functions/) within the CompuTec PDC application,
+- Management Board checkbox – checking it is optional; it allows access to the [Manager](./../../user-guide/management-board.md)[ Board](./../../user-guide/management-board.md) and [Weight Management Board](./../../user-guide/customization/optional-functions/) within the CompuTec PDC application,
 
 - PDC Form Settings Enabled – checking it is optional; it gives access to Form Settings for CompuTec PDC for a specific employee. This allows choosing columns to be displayed in specific PDC forms and their order.
 
@@ -40,7 +40,7 @@ To be used CompuTec PDC application requires the following:
 
 - Is Technician – a user with this checkbox checked has access to all not closed Downtime documents assigned to them and can modify Downtime Reason and close Downtime documents assigned to them,
 
-- Is DownTime Supervisor – a user with this checkbox checked has the same privileges as Technician but for all the Downtime documents in the system. The supervisor can also change Technician assign to any Downtime document.
+- Is DownTime Supervisor – a user with this checkbox checked has the same privileges as Technician but for all the Downtime documents in the system. The supervisor can also change a Technician assigned to any Downtime document.
 
 ## Setup
 
@@ -72,9 +72,9 @@ Enter the required data in a new window.
 
 4. When you type in the server address, the list of available companies (databases) fills itself automatically. Choose a required company from the drop-down list (click the Get all databases button to refresh the list of companies).
 
-5., 6.Type in the database username and password (needed only to open a preview of Bill of Materials and Manufacturing Orders in Crystal Report form. If these data are not set up, the application asks for authentication to open a preview. **ADD LINK** Here you can check how to set up a database user other than SYSTEM).
+5., 6.Type in the database username and password (needed only to open a preview of Bill of Materials and Manufacturing Orders in Crystal Report form. If these data are not set up, the application asks for authentication to open a preview. [Here](./../setting-up-the-application/sap-hana-user-other-than-system.md) you can check how to set up a database user other than SYSTEM).
 
-7. You can choose **ADD LINK** predefined settings from a drop-down list. The Get Settings button fills up the drop-down list with values from the related database.
+7. You can choose [predefined settings](./pdc-settings/pdc-settings.md) from a drop-down list. The Get Settings button fills up the drop-down list with values from the related database.
 
 8. After filling in all settings fields and clicking Save on every next run, the application will automatically connect with the given data when this check box is checked.
 
@@ -88,13 +88,13 @@ Enter the required data in a new window.
 
 3. Language – you can choose the language of the application interface. Currently, English, Polish, and French.
 
-4. Enable Keep Visible Default – when this option is checked, the **ADD LINK** Quick Receipt form is open after a Receipt, e.g., if a user wants to receipt something more without reopening a form.
+4. Enable Keep Visible Default – when this option is checked, the  [Quick Receipt](./../../user-guide/customization/optional-functions/quick-receipt.md) form is open after a Receipt, e.g., if a user wants to receipt something more without reopening a form.
 
 5. Show on-screen keyboard – if this check box is checked, an on-screen keyboard is displayed after clicking on any field where data can be typed. The on-screen keyboard can be minimized or closed and displayed again after another clicking on a field with a data typing-in function available. This feature is helpful if the application is used on touchscreen devices, e.g., tablets.
 
-6. Show Date Picker – click **ADD LINK** here.
+6. Show Date Picker – click [here](./../../administrator-guide/setting-up-the-application/pdc-settings/pdc-settings.md).
 
-7. Show WMS Switch Button – if you are using **ADD LINK** the CompuTec WMS application, you can check Show WMS Switch Button. This will display the button in CompuTec PDC, allowing switching between two applications. A default path will be chosen. If CompuTec WMS is installed on another path, you can choose it by clicking the button next to the path field.
+7. Show WMS Switch Button – if you are using  [the CompuTec WMS application](./../../../wms-docs/administror-guide/installation/wms-server/), you can check Show WMS Switch Button. This will display the button in CompuTec PDC, allowing switching between two applications. A default path will be chosen. If CompuTec WMS is installed on another path, you can choose it by clicking the button next to the path field.
 
 8. PDC Mode – specific / all Resource indicator – this option is assigned to a specific device. It is possible to determine whether a specific employee can add a Task on any Resource from a database or just one specified for the device. When choosing one Resource, a new field will be displayed. It is required to fill it with a Resource name.
 
@@ -144,11 +144,11 @@ Click **ADD LINK** here to find out more about RFID settings.
 
 In SAP Business One with ProcessForce installed, you can find CompuTec PDC Settings:
 
-SAP Business One → Administration → System Initialisation → General Settings → ProcessForce tab → PDC tab:
+SAP Business One → Administration → System Initialization → General Settings → ProcessForce tab → PDC tab:
 
 ![General Settings](./media/general-settings.jpg)
 
-- **Automatically use left quantity as picked** – this option concerns Production Issue and Receipt from the application level: possibility to automatically assign planned quantity for Pick Order, Pick Receipt, on both or none of it (if not set up for automatically use, the quantity will be set up to zero).
+- **Automatically use left quantity as picked** – this option concerns Production Issue and Receipt from the application level: possibility to automatically assign planned quantity for Pick Order, Pick Receipt, on both or none of it (if not set up for automatic use, the quantity will be set up to zero).
 
 - **Activity** – activity (a standard SAP B1 option) can be created from the PDC level. Here you can determine the kind of activity that will be assigned to it automatically on creation from the PDC level.
 
@@ -207,7 +207,7 @@ How to use a View in PDC:
 
   - Add (Default) – regular Receipt from production
 
-  - Add and Open Issue – create Receipt from production and open Issue to production form.
+  - Add and Open Issue – create a Receipt from production and open Issue to production form.
 
 - **Issue mode**:
 
@@ -237,7 +237,7 @@ How to use a View in PDC:
 
   ![Select Weight Document](./media/select-weight-document.png)
 
-  From here, the user can resume work on a specific document, close a document, or close this window (after closing the window, it is still possible to reach weight documents through **ADD LINK** Weight Management Board).
+  From here, the user can resume work on a specific document, close a document, or close this window (after closing the window, it is still possible to reach weight documents through [Weight Management Board](./../../user-guide/customization/optional-functions/)).
 
 - **Is Force Order Enabled for Weight Documents** – if this option is checked, the application force order of weighing is based on the order set in Operation Bind for a related Manufacturing Order.
 

@@ -4,9 +4,10 @@ In some cases, a customer would like to use a HANA database user other than SYST
 
 ---
 
-The following requirements are described in [SAP Business One note no. 2302616 - Validation - SAP HANA database user privileges](https://connect.computec.pl/download/attachments/233506987/2302616_E_20190607.pdf?version=1&modificationDate=1649077528287&api=v2) have to be met:
+The following requirements are described in [SAP Business One note no. 2302616 - Validation - SAP HANA database user privileges](./media/https://connect.computec.pl/download/attachments/233506987/2302616_E_20190607.pdf?version=1&modificationDate=1649077528287&api=v2) have to be met:
 
 ```
+
 Roles:
 
     PUBLIC
@@ -36,12 +37,12 @@ The SBOCOMMON schema is created during the installation of the SAP Business One 
 
     SBOCOMMON schema: SELECT, INSERT, DELETE, UPDATE, EXECUTE (all grantable)
     COMMON schema: SELECT, INSERT, DELETE, UPDATE, EXECUTE (all grantable)
+
 ```
 
 Additionally, the required schema has to be added to the user with the following privileges (in the following example user is B1DBUSER, and the required scheme is PFDEMOGB_CT):
 
-![Other User](./media/pdc-other-user.png)
+![System](./media/sys.png)
 
-![Other User](./media/pdc-other-user-2.png)
-
-
+![System](./media/sys2.png
+)

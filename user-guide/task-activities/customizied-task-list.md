@@ -94,3 +94,4 @@ The last step to use the customized task list is to assign the created PDC Setti
 
 Example of the result in CompuTec PDC:
 
+![Customization](./media/customization-example.png)

@@ -121,3 +121,31 @@ Available barcodes:
 - (96)task_code (@CT_PF_OTRT table, Code field) – choosing a Task,
 
 - (253)manufacturing_order_number(97)operation_code(98)resource_code (respectively: @CT_PF_OMOR table DocNum field; @CT_PF_MOR16 table, fields: U_OprCode and U_RscCode) – adding a new Task; operation and resource codes are optional (if not in a barcode, then they have to be chosen manually).
+
+## The Issue to Production form
+
+![Barcode](./media/barcode.png)
+
+Available barcode:
+
+    (91)Item_code(99)item_sequence(10)batch_code(92)bin_code(95)quantity – Sequence, Batch, Bin Location, and Quantity are optional – if you do not add them, you will have to add them manually.
+
+## Weight Wizard form
+
+### Item choosing level
+
+![Weight Wizard](./media/weight-wizard.png)
+
+Available barcodes:
+
+    item_code – choose an Item from the list,
+    (91)item_code(99)item_sequence(10)batch_code) – choose Item and Batch (Sequence and Batch field are optional).
+
+### Batch choosing level
+
+Available barcodes:
+
+    batch_code – chooses a Batch from the list,
+    (10)batch_code – chooses a Batch from the list.
+
+    

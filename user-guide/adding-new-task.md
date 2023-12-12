@@ -68,7 +68,6 @@ X. A task tile displays information about the picked Operation and Resource.
 
 6. Setup start date and time. In the second row (next to the set-up time icon), a period is displayed.
 
-:::caution
 The color of the setup date and time and run date and time may be different:
 
 - black – planned date and period,

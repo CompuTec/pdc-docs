@@ -41,33 +41,11 @@ Options present only in the PDC Settings form:
 A template can be assigned to a specific Employee.
 
 :::info
+
 Human Resources → Employee Master Data
+
 :::
 
 ![Assign Settings](./media/pdc-assigning-settings.png)
 
 Click Choose from List icon to choose one of the predefined PDC Settings.
-
-![RFID Assign Filled](./media/rfid-assign-filled.png)
-
-Click Assign, log in and choose an Employee you want to assign to the card. It can be used if the ID is not assigned to any Employee.
-
-Click Save – a user is assigned to an RFID identifier and ready to use.
-
-### Employee Master Data
-
-Assigned ID is stored in SAP B1 Employee Master Data:
-
-:::info
-Human Resources → Employee Master Data
-:::
-
-![PDC RFID Settings](./media/pdc-rfid-settings-2.png)
-
-If ID is known, assigning it to an Employee from the SAP B1 level is possible – by putting it in the PDC RFIF UID field.
-
-## Usage
-
-When the module is set up correctly, we can use an RFID identifier (e.g., card) to log in by putting it next to the RFID reader. It should be done on the logging-in screen. It causes logging in for a specific Employee without manually putting in login and password.
-
-Putting the card again causes log out. Putting another Employee's RFID card when logged in causes re-log to another Employee.
