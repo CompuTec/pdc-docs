@@ -9,7 +9,7 @@ As of the following releases: **3.10.6.1** (related ProcessForce version: 10.0 R
 :::
 
 :::warning
-Be sure to fulfill the requirements described **ADD LINK** here before starting an installation process.
+Be sure to fulfill the requirements described [here](./requirements.md) before starting an installation process.
 :::
 
 1. To install the CompuTec PDC application, download and run its installation file – CompuTec.PDC.Setup.x64.msi.

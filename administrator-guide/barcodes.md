@@ -30,7 +30,7 @@ PDC Barcode Simulator was created to:
 
 - simulate barcode scanning in CompuTec PDC (for testing purposes).
 
-Click to **ADD LINK** download Barcode Simulator.
+Click to [here](./media/PDC%20Barcode%20Simulator.zip) download Barcode Simulator.
 
 ![Barcode Simulator](./media/barcode-simulator.png)
 

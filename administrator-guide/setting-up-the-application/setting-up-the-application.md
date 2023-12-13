@@ -94,7 +94,7 @@ Enter the required data in a new window.
 
 6. Show Date Picker – click [here](./../../administrator-guide/setting-up-the-application/pdc-settings/pdc-settings.md).
 
-7. Show WMS Switch Button – if you are using  [the CompuTec WMS application](./../../../wms-docs/administror-guide/installation/wms-server/), you can check Show WMS Switch Button. This will display the button in CompuTec PDC, allowing switching between two applications. A default path will be chosen. If CompuTec WMS is installed on another path, you can choose it by clicking the button next to the path field.
+7. Show WMS Switch Button – if you are using [the CompuTec WMS application](./../../../wms-docs/administror-guide/installation/wms-server/), you can check Show WMS Switch Button. This will display the button in CompuTec PDC, allowing switching between two applications. A default path will be chosen. If CompuTec WMS is installed on another path, you can choose it by clicking the button next to the path field.
 
 8. PDC Mode – specific / all Resource indicator – this option is assigned to a specific device. It is possible to determine whether a specific employee can add a Task on any Resource from a database or just one specified for the device. When choosing one Resource, a new field will be displayed. It is required to fill it with a Resource name.
 
@@ -116,7 +116,7 @@ Selection Printer
 
 ### RFID Settings
 
-Click **ADD LINK** here to find out more about RFID settings.
+Click [here](./rfid.md) to find out more about RFID settings.
 
 ### Connecting
 
@@ -197,7 +197,7 @@ How to use a View in PDC:
 
 - **Task List** – with this option, it is possible to customize columns by adding Task By Resource using a database query (created in SAP Business One Query Generator).
 
-- **Step by Step Issue From Production** – checking this option determines whether putting in data for an issue from production (Item, Batch, localization, Quantity) is performed step by step (one form for one type of data, accepting data in one form leads to a next one) or in just one dialogue box.
+- **Step-by-Step Issue From Production** – checking this option determines whether putting in data for an issue from production (Item, Batch, localization, Quantity) is performed step-by-step (one form for one type of data, accepting data in one form leads to the next one) or in just one dialogue box.
 
 - **Get Date and Time for Operations from Database Server** – defines whether the date and time are taken from a database server or a terminal on which CompuTec PDC is installed. The purpose of the function: in many cases, SAP Business One is installed on one server and CompuTec PDC on another machine, e.g., a mobile device or industrial PC. Date and time can be set up differently on two machines, causing inconsistencies in Time Bookings recorded through CompuTec PDC.
 
@@ -249,6 +249,6 @@ How to use a View in PDC:
 
 - **Blocked time type, if the previous operation was not closed** – (values: 'All,' 'Run') if 'All' is chosen, it is impossible to start an Operation if a previous one on this Manufacturing Order is not finished. If the option is set to 'Run,' it is possible to start 'Set up' time on an Operation even when the previous Operation is set to 'Run.'
 
-- **Force tare between each weighing**– if the option is checked, it is required to click 'Tare' on each weighing (find out more about the **ADD LINK** Weighing Module).
+- **Force tare between each weighing**– if the option is checked, it is required to click 'Tare' on each weighing (find out more about the [Weighing Module](./../../user-guide/customization/optional-functions/weight-scale-module/weight-scale-module.md)).
 
 - **Show all Tasks** – this allows access to all of the user's Tasks on all Resources despite using the Resource Code option. The user cannot add any new Task to Resources other than assigned.

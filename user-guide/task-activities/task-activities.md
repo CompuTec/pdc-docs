@@ -237,7 +237,7 @@ Run time setting must be performed the same way setting set-up time was – only
 
 Set-up time ends automatically after starting a run time.
 
-If the Confirmation button will be clicked before setting the end of run time, a communication will be displayed:
+If the Confirmation button is clicked before setting the end of run time, a communication will be displayed:
 
 ![Example Message](./media/example-message.png)
 

@@ -4,4 +4,4 @@ After the successful configuration the configured devices will be available to c
 
 ![Scales](./media/Scales.png)
 
-Click ADD LINK here to get more information on how to use the CompuTec PDC weighting module.
+Click [here](./../../user-guide/customization/optional-functions/weight-scale-module/weight-scale-module.md) to get more information on how to use the CompuTec PDC weighting module.

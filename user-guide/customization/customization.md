@@ -90,4 +90,3 @@ Select "DocEntry" ,"U_LineNum", "U_RscCode", "U_RscType" as "Description" from "
 ![Custom View](./media/pdc-custom-view-2.jpg)
 
 ![Custom View](./media/pdc-custom-view-3.jpg)
-

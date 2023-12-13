@@ -15,7 +15,7 @@ A terminal on which CompuTec PDC is installed requires a connection to a server 
 
 ![PDC Licensing](./media/computec-service-manager-2.png)
 3. Click PDC/WMS Licensing button to open the window where you can set details of CompuTec PDC licensing.
-4. To obtain a license file, the following information must be sent to CompuTec support (as described on **ADD LINK** the CompuTec PDC license request page):
+4. To obtain a license file, the following information must be sent to CompuTec support (as described in [the CompuTec PDC license request page](pdc-license-request.md)):
 
   - Full Server Name – it is displayed automatically in a field marked on the screenshot below after the successful installation of the application. It indicates a specific machine that the application is installed on.
 
