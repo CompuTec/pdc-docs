@@ -88,13 +88,13 @@ Enter the required data in a new window.
 
 3. Language – you can choose the language of the application interface. Currently, English, Polish, and French.
 
-4. Enable Keep Visible Default – when this option is checked, the  [Quick Receipt](./../../user-guide/customization/optional-functions/quick-receipt.md) form is open after a Receipt, e.g., if a user wants to receipt something more without reopening a form.
+4. Enable Keep Visible Default – when this option is checked, the [Quick Receipt](./../../user-guide/customization/optional-functions/quick-receipt.md) form is open after a Receipt, e.g., if a user wants to receipt something more without reopening a form.
 
 5. Show on-screen keyboard – if this check box is checked, an on-screen keyboard is displayed after clicking on any field where data can be typed. The on-screen keyboard can be minimized or closed and displayed again after another clicking on a field with a data typing-in function available. This feature is helpful if the application is used on touchscreen devices, e.g., tablets.
 
 6. Show Date Picker – click [here](./../../administrator-guide/setting-up-the-application/pdc-settings/pdc-settings.md).
 
-7. Show WMS Switch Button – if you are using [the CompuTec WMS application](./../../../wms-docs/administror-guide/installation/wms-server/), you can check Show WMS Switch Button. This will display the button in CompuTec PDC, allowing switching between two applications. A default path will be chosen. If CompuTec WMS is installed on another path, you can choose it by clicking the button next to the path field.
+<!-- 7. Show WMS Switch Button – if you are using [the CompuTec WMS application](./../../../wms-docs/administror-guide/installation/wms-server/), you can check Show WMS Switch Button. This will display the button in CompuTec PDC, allowing switching between two applications. A default path will be chosen. If CompuTec WMS is installed on another path, you can choose it by clicking the button next to the path field. -->
 
 8. PDC Mode – specific / all Resource indicator – this option is assigned to a specific device. It is possible to determine whether a specific employee can add a Task on any Resource from a database or just one specified for the device. When choosing one Resource, a new field will be displayed. It is required to fill it with a Resource name.
 
@@ -126,11 +126,9 @@ Click [here](./rfid.md) to find out more about RFID settings.
 
 3. Now, you can log in using CompuTec PDC login and CompuTec PDC password in the Login and Password fields, respectively. The connection status is communicated in the lower part of the screen.
 
-![Log In](./media/log-in-connected.png)
-4. The name of the user defined in Employee Master Data will be displayed in the right-down corner of the form after logging in:
+![Log In](./media/log-in-connected.png) 4. The name of the user defined in Employee Master Data will be displayed in the right-down corner of the form after logging in:
 
-![Logged In](./media/logged-in.png)
-5. Service is up and ready to work with. On the lower part of the screen, the function buttons are displayed (from left to right):
+![Logged In](./media/logged-in.png) 5. Service is up and ready to work with. On the lower part of the screen, the function buttons are displayed (from left to right):
 
 - Adding a new task,
 
@@ -154,7 +152,7 @@ SAP Business One → Administration → System Initialization → General Settin
 
 - **Activity Type** – here, you can determine the activity type that will be automatically assigned to it on creation from the PDC level.
 
-- **Show not closed Task in future section** – when the option is checked, and on the  Confirmation Panel checkbox Close Task is unchecked, then after registering a document, the Task tile stays on the main panel.
+- **Show not closed Task in future section** – when the option is checked, and on the Confirmation Panel checkbox Close Task is unchecked, then after registering a document, the Task tile stays on the main panel.
 
 - **Create a new task when Down Register** – set to 'Yes': a new Time Booking is created and a new tile with a Task in the main window. Set to 'No': action will be determined by Action when Down Registration option (see below).
 

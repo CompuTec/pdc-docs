@@ -1,0 +1,6 @@
+{
+  "label": "PDC",
+  "pluginId": "pdc",
+  "routeBasePath": "/pdc",
+  "order": 2
+}

@@ -18,13 +18,13 @@ RFID Controller – a list of defined controllers.
 
 Time interval – a period after which a reader reads an identification. It is set up to 1400 (1,4 seconds) by default.
 
-![PDC RFID Settings](./media/pdc-rfid-settings.png)
+<!-- ![PDC RFID Settings](./media/pdc-rfid-settings.png) -->
 
 ### Test
 
 Here you can test if the chosen controller is set up correctly: after clicking Start, the controller tries to read identification every period set up in Settings > Time Interval. If the controller is set up correctly, there will be information on every identification read.
 
-![RFID Test](./media/rfid-test.png)
+<!-- ![RFID Test](./media/rfid-test.png) -->
 
 ### Assign ID
 
@@ -44,7 +44,7 @@ Assigned ID is stored in SAP B1 Employee Master Data:
 Human Resources → Employee Master Data
 :::
 
-![PDC RFID Settings](./media/pdc-rfid-settings-2.png)
+<!-- ![PDC RFID Settings](./media/pdc-rfid-settings-2.png) -->
 
 If ID is known, assigning it to an Employee from the SAP B1 level is possible – by putting it in the PDC RFIF UID field.
 

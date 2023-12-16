@@ -30,7 +30,7 @@ PDC Barcode Simulator was created to:
 
 - simulate barcode scanning in CompuTec PDC (for testing purposes).
 
-Click to [here](./media/PDC%20Barcode%20Simulator.zip) download Barcode Simulator.
+<!-- Click to [here](./media/PDC%20Barcode%20Simulator.zip) download Barcode Simulator. -->
 
 ![Barcode Simulator](./media/barcode-simulator.png)
 
@@ -86,7 +86,7 @@ Available barcodes:
 
 - Z111 – changes the status of the selected task to run,
 
-- Z222 – changes the  status of the selected task to Downtime,
+- Z222 – changes the status of the selected task to Downtime,
 
 - T000 – starts the Time Booking process for the chosen Task,
 
@@ -147,5 +147,3 @@ Available barcodes:
 
     batch_code – chooses a Batch from the list,
     (10)batch_code – chooses a Batch from the list.
-
-    
