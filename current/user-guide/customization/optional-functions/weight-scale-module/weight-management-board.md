@@ -8,7 +8,7 @@ This option allows to manage of all weight documents in the system.
 
 :::note
 
-Remember that only users with [Management Board privileges](./../../../../administrator-guide/setting-up-the-application/setting-up-the-application.md) can use this option.
+Remember that only users with [Management Board privileges]../../../../administrator-guide/setting-up-the-application/setting-up-the-application.md) can use this option.
 
 :::
 

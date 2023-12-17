@@ -76,7 +76,7 @@ Here you can find a step-by-step guide on how to configure CompuTec WeightScale 
 
 :::warning
 
-The address and port in the [corresponding CompuTec PDC Setting](./../setting-up-the-application/setting-up-the-application.md#ct-labels-settings) must be identical to those entered here.
+The address and port in the [corresponding CompuTec PDC Setting]../setting-up-the-application/setting-up-the-application.md#ct-labels-settings) must be identical to those entered here.
 
 :::
 

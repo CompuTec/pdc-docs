@@ -28,9 +28,9 @@ To be used CompuTec PDC application requires the following:
 
 - PDC Login and Password defined
 
-- Management Board checkbox – checking it is optional; it allows access to the [Manager Board](./../../user-guide/management-board.md) and [Weight Management Board](./../../user-guide/customization/optional-functions/weight-scale-module/weight-management-board.md) within the CompuTec PDC application,
+- Management Board checkbox – checking it is optional; it allows access to the [Manager Board]../../user-guide/management-board.md) and [Weight Management Board]../../user-guide/customization/optional-functions/weight-scale-module/weight-management-board.md) within the CompuTec PDC application,
 
-- PDC Form Settings Enabled – checking it is optional; it gives access to [Form Settings](./../../user-guide/customization/customization.md#form-settings) for CompuTec PDC for a specific employee. This allows choosing columns to be displayed in specific PDC forms and their order.
+- PDC Form Settings Enabled – checking it is optional; it gives access to [Form Settings]../../user-guide/customization/customization.md#form-settings) for CompuTec PDC for a specific employee. This allows choosing columns to be displayed in specific PDC forms and their order.
   <details>
     <summary>Click here to find out more</summary>
     <div>
@@ -39,7 +39,7 @@ To be used CompuTec PDC application requires the following:
     </div>
   </details>
 
-- Labour Code – choosing Resource (only of Labour type) according to which specific employee work time is counted, e.g., there is a Resource called Press Operator with a specified code. Here you can assign the code to a particular employee. An Employee with a Labour Code can be [assigned to a Task](./../../user-guide/task-activities/task-activities.md).
+- Labour Code – choosing Resource (only of Labour type) according to which specific employee work time is counted, e.g., there is a Resource called Press Operator with a specified code. Here you can assign the code to a particular employee. An Employee with a Labour Code can be [assigned to a Task]../../user-guide/task-activities/task-activities.md).
 
 - PDC Settings – a set of individual CompuTec PDC and ProcessForce settings that can be assigned to a specific Employee or a CompuTec PDC installation. Click [here](./pdc-settings/pdc-settings.md) to find out more,
 
@@ -81,7 +81,7 @@ Enter the required data in a new window.
 
 4. When you type in the server address, the list of available companies (databases) fills itself automatically. Choose a required company from the drop-down list (click the Get all databases button to refresh the list of companies).
 
-5., 6.Type in the database username and password (needed only to open a preview of Bill of Materials and Manufacturing Orders in Crystal Report form. If these data are not set up, the application asks for authentication to open a preview. [Here](./../setting-up-the-application/sap-hana-user-other-than-system.md) you can check how to set up a database user other than SYSTEM).
+5., 6.Type in the database username and password (needed only to open a preview of Bill of Materials and Manufacturing Orders in Crystal Report form. If these data are not set up, the application asks for authentication to open a preview. [Here]../setting-up-the-application/sap-hana-user-other-than-system.md) you can check how to set up a database user other than SYSTEM).
 
 7. You can choose [predefined settings](./pdc-settings/pdc-settings.md) from a drop-down list. The Get Settings button fills up the drop-down list with values from the related database.
 
@@ -97,11 +97,11 @@ Enter the required data in a new window.
 
 3. Language – you can choose the language of the application interface. Currently, English, Polish, and French.
 
-4. Enable Keep Visible Default – when this option is checked, the [Quick Receipt](./../../user-guide/customization/optional-functions/quick-receipt.md) form is open after a Receipt, e.g., if a user wants to receipt something more without reopening a form.
+4. Enable Keep Visible Default – when this option is checked, the [Quick Receipt]../../user-guide/customization/optional-functions/quick-receipt.md) form is open after a Receipt, e.g., if a user wants to receipt something more without reopening a form.
 
 5. Show on-screen keyboard – if this check box is checked, an on-screen keyboard is displayed after clicking on any field where data can be typed. The on-screen keyboard can be minimized or closed and displayed again after another clicking on a field with a data typing-in function available. This feature is helpful if the application is used on touchscreen devices, e.g., tablets.
 
-6. Show Date Picker – click [here](./../../administrator-guide/setting-up-the-application/pdc-settings/pdc-settings.md).
+6. Show Date Picker – click [here]../../administrator-guide/setting-up-the-application/pdc-settings/pdc-settings.md).
 
 7. Show WMS Switch Button – if you are using the CompuTec WMS application<!-- TODO: Link -->, you can check Show WMS Switch Button. This will display the button in CompuTec PDC, allowing switching between two applications. A default path will be chosen. If CompuTec WMS is installed on another path, you can choose it by clicking the button next to the path field.
 
@@ -264,18 +264,18 @@ How to use a View in PDC:
 
   ![Select Weight Document](./media/setting-up-the-application/select-weight-document.webp)
 
-  From here, the user can resume work on a specific document, close a document, or close this window (after closing the window, it is still possible to reach weight documents through [Weight Management Board](./../../user-guide/customization/optional-functions/)).
+  From here, the user can resume work on a specific document, close a document, or close this window (after closing the window, it is still possible to reach weight documents through [Weight Management Board]../../user-guide/customization/optional-functions/)).
 
 - **Is Force Order Enabled for Weight Documents** – if this option is checked, the application force order of weighing is based on the order set in Operation Bind<!-- TODO: Link --> for a related Manufacturing Order.
 
-- **Is Precision Weight Enabled for Weight Documents** – if this option is saved, you cannot issue on [Weight Document](./../../user-guide/customization/optional-functions/weight-scale-module/weight-scale-module.md) more than the related Planned Quantity (within a weight scale precision range).
+- **Is Precision Weight Enabled for Weight Documents** – if this option is saved, you cannot issue on [Weight Document]../../user-guide/customization/optional-functions/weight-scale-module/weight-scale-module.md) more than the related Planned Quantity (within a weight scale precision range).
 
 - **Auto Logout Delay(s)** – a number of seconds of inactivity after which the application automatically logs out a currently logged-in user (if it is set to '0', the option is inactive).
 
-- **Synchronize team works** – [Team Log](./../../user-guide/task-activities/task-activities.md) related option. If this option is checked, Team Leader's starting time on a Task starts for all related Employees. Also, closing a Task (booking time), do the same for all related employees.
+- **Synchronize team works** – [Team Log]../../user-guide/task-activities/task-activities.md) related option. If this option is checked, Team Leader's starting time on a Task starts for all related Employees. Also, closing a Task (booking time), do the same for all related employees.
 
 - **Blocked time type, if the previous operation was not closed** – (values: 'All,' 'Run') if 'All' is chosen, it is impossible to start an Operation if a previous one on this Manufacturing Order is not finished. If the option is set to 'Run,' it is possible to start 'Set up' time on an Operation even when the previous Operation is set to 'Run.'
 
-- **Force tare between each weighing**– if the option is checked, it is required to click 'Tare' on each weighing (find out more about the [Weighing Module](./../../user-guide/customization/optional-functions/weight-scale-module/weight-scale-module.md)).
+- **Force tare between each weighing**– if the option is checked, it is required to click 'Tare' on each weighing (find out more about the [Weighing Module]../../user-guide/customization/optional-functions/weight-scale-module/weight-scale-module.md)).
 
 - **Show all Tasks** – this allows access to all of the user's Tasks on all Resources despite using the [Resource Code](./pdc-settings/pdc-settings.md#pdc-settings-templates) option. The user cannot add any new Task to Resources other than assigned.

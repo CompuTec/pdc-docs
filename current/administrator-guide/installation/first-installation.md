@@ -37,5 +37,5 @@ A default path is "C:\Program Files\CompuTec\PDC3\". You can change the path by 
 6. The service is ready to run. You can start by clicking the shortcut created on the Windows program list.
 
 :::info
-Remember that the application needs to be [set up](./../setting-up-the-application/setting-up-the-application.md) correctly after the installation.
+Remember that the application needs to be [set up]../setting-up-the-application/setting-up-the-application.md) correctly after the installation.
 :::
