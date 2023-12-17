@@ -60,7 +60,7 @@ The following example is created using Microsoft Visual Studio.
 
 ![Method implementation](./media/weighting-device-drivers/method-implementation.png)
 
-You can check the class in the example driver (CT Test Weight Scale). You can download it from here: [here](./media/TestDevice.cs).
+You can check the class in the example driver (CT Test Weight Scale). You can download it from here<!-- TODO: Link -->.
 
 ### Usage
 
