@@ -10,11 +10,11 @@ This function allows to record of the Time Bookings for multiple Manufacturing O
 
 The option is available from the main panel:
 
-![List](./media/quick-time-booking/pdc-list.png)
+![List](./media/quick-time-booking/pdc-list.webp)
 
 Clicking the option opens Quick Time Booking panel:
 
-![Quick Work Registration](./media/quick-time-booking/quick-work-registration.png)
+![Quick Work Registration](./media/quick-time-booking/quick-work-registration.webp)
 
 ## Header
 
@@ -42,7 +42,7 @@ In the header of the form, you can define filter options to display only require
 
 In this section, all the records defined by the filters option from the header are displayed.
 
-![Table Section](./media/quick-time-booking/pdc-table-section.png)
+![Table Section](./media/quick-time-booking/pdc-table-section.webp)
 
 Click the icon next to Operation Name to expand the line to Resources: more than one Resource can be assigned to an Operation. Clicking the icon next to Resource expands this line to Times: for each of the Resources Setup and Run Time can be defined, then quantity, remarks, and [Close Task](task-activities.md) option.
 

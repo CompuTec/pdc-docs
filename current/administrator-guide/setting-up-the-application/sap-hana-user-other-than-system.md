@@ -46,6 +46,6 @@ The SBOCOMMON schema is created during the installation of the SAP Business One 
 
 Additionally, the required schema has to be added to the user with the following privileges (in the following example user is B1DBUSER, and the required scheme is PFDEMOGB_CT):
 
-![System](./media/sap-hana-user-other-than-system/sys.png)
+![System](./media/sap-hana-user-other-than-system/sys.webp)
 
-![System](./media/sap-hana-user-other-than-system/sys2.png)
+![System](./media/sap-hana-user-other-than-system/sys2.webp)

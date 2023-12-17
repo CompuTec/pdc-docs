@@ -21,7 +21,7 @@ To upgrade CompuTec PDC to a newer version, perform the following steps:
 
    You can do it in Windows by choosing the following path: _Control Panel > All Control Panel Items > Programs and Features_. Right-click the CompuTec PDC (64-bit) line and select Uninstall.
 
-   ![PDC Uninstall](./media/application-upgrade/pdc-uninstall.png)
+   ![PDC Uninstall](./media/application-upgrade/pdc-uninstall.webp)
 
 2. Get the latest version of the CompuTec PDC installer file.
 

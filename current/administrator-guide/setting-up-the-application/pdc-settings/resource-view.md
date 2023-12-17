@@ -24,23 +24,23 @@ Minimal related versions:
 
 Go to AppEngine, MO360 to define a view with multiple Resources:
 
-![Main View](./media/resource-view/mo360-main-view.png)
+![Main View](./media/resource-view/mo360-main-view.webp)
 
 Click Add View:
 
-![MO360 Add View](./media/resource-view/mo360-add-view.png)
+![MO360 Add View](./media/resource-view/mo360-add-view.webp)
 
 Define the view details:
 
-![View Details](./media/resource-view/view-details.png)
+![View Details](./media/resource-view/view-details.webp)
 
 Now the view is available in the main MO360 view:
 
-![New View](./media/resource-view/new-view.png)
+![New View](./media/resource-view/new-view.webp)
 
 Open the view and choose the All option for the Resources:
 
-![All Resources](./media/resource-view/all-resources.png)
+![All Resources](./media/resource-view/all-resources.webp)
 
 After defining this view, you can assign it in [PDC Settings](./pdc-settings.md).
 In this example, in CompuTec PDC, you can see only tasks for the following Resources: Rsc01, Rsc02, and Rsc03.

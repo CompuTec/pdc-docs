@@ -16,7 +16,7 @@ Remember that only users with [Management Board privileges](./../../../../admini
 
 The option is available from the main window of the application:
 
-![Management Board](./media/weight-management-board/management-board-icon.png)
+![Management Board](./media/weight-management-board/management-board-icon.webp)
 
 ## Weighting Management Board
 
@@ -26,7 +26,7 @@ You can define the number of rows in the Documents table.
 
 Checking the 'Only active documents' checkbox filters the Documents table and leaves only documents in 'In Progress' status.
 
-![Weighting Management Board](./media/weight-management-board/board.png)
+![Weighting Management Board](./media/weight-management-board/board.webp)
 
 ### Documents table
 

@@ -10,7 +10,7 @@ In this section, you can check how to configure a connection between CompuTec PD
 
 ## Weight scales connection architecture
 
-![Architecture](./media/weight-scales-integration/weight-architecture.png)
+![Architecture](./media/weight-scales-integration/weight-architecture.webp)
 
 ## Configuration steps
 

@@ -18,7 +18,7 @@ CompuTec Service Manager is a tool available with CompuTec License Server. You c
 
 2. CompuTec License Server service is running by default after installing CompuTec License Server. If not – choose it from a drop-down list and click the Start button:
 
-![PDC Licensing](./media/pdc-licensing/service-manager.png)
+![PDC Licensing](./media/pdc-licensing/service-manager.webp)
 
 3. Click PDC/WMS Licensing button to open the window where you can set details of CompuTec PDC licensing.
 
@@ -28,7 +28,7 @@ CompuTec Service Manager is a tool available with CompuTec License Server. You c
 
 - Terminal License Key – the value generated automatically based on the internal system information.
 
-  ![CompuTec License Server](./media/pdc-licensing/license-import.png)
+  ![CompuTec License Server](./media/pdc-licensing/license-import.webp)
 
 5. In License file location: field type in or browse the path to the license file received from CompuTec support.
 
@@ -46,7 +46,7 @@ CompuTec Service Manager is a tool available with CompuTec License Server. You c
 
 10. Reload PDC/WMS LICENSING window. After that, a new Terminal will be displayed on the License Management tab:
 
-![Not Assigned](./media/pdc-licensing/pdc-not-assigned.png)
+![Not Assigned](./media/pdc-licensing/pdc-not-assigned.webp)
 
 11. Two values are communicated on this tab:
 
@@ -56,10 +56,10 @@ CompuTec Service Manager is a tool available with CompuTec License Server. You c
 
 12. Choose a desired terminal from the list, check the checkbox to assign a license, and click update. Note that the Number of Available Licenses decreases after that because of starting to use one of them.
 
-![Assigned](./media/pdc-licensing/pdc-license-management-assigned.png)
+![Assigned](./media/pdc-licensing/pdc-license-management-assigned.webp)
 
 13. A license is now assigned to a terminal that can work with it.
 
 14. Terminal ID can be read in the About CompuTec PDC window, which is available under an information icon on the logging panel:
 
-![About PDC](./media/pdc-licensing/pdc-about.png)
+![About PDC](./media/pdc-licensing/pdc-about.webp)

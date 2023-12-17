@@ -16,7 +16,7 @@ Here you can also find a solution for the following issues:
 
 More details are in the log.log file, stored in the application directory.
 
-![PDC Logs](./media/faq/pdc-logs.png)
+![PDC Logs](./media/faq/pdc-logs.webp)
 
 Adding this file when reporting the issue to CompuTec Support is also helpful.
 

@@ -22,7 +22,7 @@ To be used CompuTec PDC application requires the following:
   Main Menu → Human Resources → Employee Master Data
   :::
 
-![Setting Up The Application](./media/setting-up-the-application/employee-master-data-general.png)
+![Setting Up The Application](./media/setting-up-the-application/employee-master-data-general.webp)
 
 - The active Employee checkbox has to be checked to use this Employee in CompuTec PDC,
 
@@ -35,7 +35,7 @@ To be used CompuTec PDC application requires the following:
     <summary>Click here to find out more</summary>
     <div>
       Example of Form Settings for Operation Properties:
-      ![Form settings](./media/setting-up-the-application/form-settings.png)
+      ![Form settings](./media/setting-up-the-application/form-settings.webp)
     </div>
   </details>
 
@@ -57,7 +57,7 @@ To be used CompuTec PDC application requires the following:
 
 After running the application, click the first icon on the top menu and choose "Settings":
 
-![PDC Settings](./media/setting-up-the-application/pdc-settings.png)
+![PDC Settings](./media/setting-up-the-application/pdc-settings.webp)
 
 The Settings tab is divided into three sections:
 
@@ -67,7 +67,7 @@ The Settings tab is divided into three sections:
 For a description of the configuration for the AppEngine plugin version, click here <!-- TODO: Link -->.
 :::
 
-![PDC Connection](./media/setting-up-the-application/pdc-connection.png)
+![PDC Connection](./media/setting-up-the-application/pdc-connection.webp)
 
 Here you have to enter the information needed for connection to SAP Business One.
 
@@ -89,7 +89,7 @@ Enter the required data in a new window.
 
 ### Interface
 
-![Interface](./media/setting-up-the-application/pdc-interface.png)
+![Interface](./media/setting-up-the-application/pdc-interface.webp)
 
 1. Theme – you can choose a light or dark color set for the application.
 
@@ -115,7 +115,7 @@ Enter the required data in a new window.
 
 ### Other
 
-![Other Settings](./media/setting-up-the-application/other-settings.png)
+![Other Settings](./media/setting-up-the-application/other-settings.webp)
 
 #### CT Labels Settings
 
@@ -136,10 +136,10 @@ Click [here](./rfid.md) to find out more about RFID settings.
 2. Click Connect in the upper menu:
 
 3. Now, you can log in using CompuTec PDC login and CompuTec PDC password in the Login and Password fields, respectively. The connection status is communicated in the lower part of the screen.
-   ![Log In](./media/setting-up-the-application/log-in-connected.png)
+   ![Log In](./media/setting-up-the-application/log-in-connected.webp)
 
 4. The name of the user defined in Employee Master Data will be displayed in the right-down corner of the form after logging in:
-   ![Logged In](./media/setting-up-the-application/logged-in.png)
+   ![Logged In](./media/setting-up-the-application/logged-in.webp)
 
 5. Service is up and ready to work with. On the lower part of the screen, the function buttons are displayed (from left to right):
 
@@ -157,7 +157,7 @@ In SAP Business One with ProcessForce installed, you can find CompuTec PDC Setti
 
 SAP Business One → Administration → System Initialization → General Settings → ProcessForce tab → PDC tab:
 
-![General Settings](./media/setting-up-the-application/general-settings.jpg)
+![General Settings](./media/setting-up-the-application/general-settings.webp)
 
 - **Automatically use left quantity as picked** – this option concerns Production Issue and Receipt from the application level: possibility to automatically assign planned quantity for Pick Order, Pick Receipt, on both or none of it (if not set up for automatic use, the quantity will be set up to zero).
 
@@ -169,7 +169,7 @@ SAP Business One → Administration → System Initialization → General Settin
   <details>
     <summary>Click here to find out more</summary>
     <div>
-      ![Confirmation Panel](./media/setting-up-the-application/confirmation-panel.png)
+      ![Confirmation Panel](./media/setting-up-the-application/confirmation-panel.webp)
     </div>
   </details>
 
@@ -214,11 +214,11 @@ Select "DocEntry" ,"U_LineNum", "U_RscCode", "U_RscType" as "Description" from "
 
 How to use a View in PDC:
 
-![PDC View 1](./media/setting-up-the-application/pdc-view-1.jpg)
+![PDC View 1](./media/setting-up-the-application/pdc-view-1.webp)
 
-![PDC View 2](./media/setting-up-the-application/pdc-view-2.jpg)
+![PDC View 2](./media/setting-up-the-application/pdc-view-2.webp)
 
-![PDC View 3](./media/setting-up-the-application/pdc-view-3.jpg)
+![PDC View 3](./media/setting-up-the-application/pdc-view-3.webp)
 
 - **PDC Way of Getting Settings** – a settings template (check the section below for more information) can be assigned to an employee or an installation of CompuTec PDC. Here you can decide whether a settings template is taken from an installation or employee settings first.
 
@@ -248,7 +248,7 @@ How to use a View in PDC:
 
   - Yes – between each weighing, the user sees a confirm message:
 
-  ![Weighting Message](./media/setting-up-the-application/weighting-message.png)
+  ![Weighting Message](./media/setting-up-the-application/weighting-message.webp)
 
 - **Range from Mode**:
 
@@ -258,11 +258,11 @@ How to use a View in PDC:
 
   - Remaining Quantity – the range from the parameter in the weight scale cannot be higher than the Remaining quantity (3 in the picture); for example, in the below image, you won't be able to select the weight scale if Range From is 100 KG.
 
-  ![Weight Range](./media/setting-up-the-application/weight-range.png)
+  ![Weight Range](./media/setting-up-the-application/weight-range.webp)
 
 - **Show Not Finished Weight Documents** – if this option is checked, on another logging in of a user, a window with not finished weight documents will be displayed:
 
-  ![Select Weight Document](./media/setting-up-the-application/select-weight-document.png)
+  ![Select Weight Document](./media/setting-up-the-application/select-weight-document.webp)
 
   From here, the user can resume work on a specific document, close a document, or close this window (after closing the window, it is still possible to reach weight documents through [Weight Management Board](./../../user-guide/customization/optional-functions/)).
 

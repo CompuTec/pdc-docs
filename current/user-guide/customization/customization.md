@@ -36,19 +36,19 @@ Thanks to this option, you can choose which columns are displayed on the followi
 
 The option is available from the name bar of the mentioned forms. You can choose which columns are displayed on the form by checking/unchecking the check boxes of specific columns.
 
-![Settings](./media/customization/pdc-customization-settings.png)
+![Settings](./media/customization/pdc-customization-settings.webp)
 
 ## Task Tile and Task Panel Customization
 
 Click and hold the left Shift + Ctrl + Alt keys and click the Log In on-screen button on the log-in screen to activate the Task Tile and Task Panel customization options.
 
-After this, you can choose what values will be displayed in different places on the tile represented by the Change icon: ![Change Icon](./media/customization/change-icon.png). Uncheck Default check box and choose desired value from a drop-down list. Check the Default check box to get back to the default value:
+After this, you can choose what values will be displayed in different places on the tile represented by the Change icon: ![Change Icon](./media/customization/change-icon.webp). Uncheck Default check box and choose desired value from a drop-down list. Check the Default check box to get back to the default value:
 
-![Task Customization](./media/customization/task-panel-customization.png)
+![Task Customization](./media/customization/task-panel-customization.webp)
 
 The customization option works in the same manner on the Task Panel form:
 
-![Task Tile Customization](./media/customization/task-tile-customization.png)
+![Task Tile Customization](./media/customization/task-tile-customization.webp)
 
 Note that also icons in the lower part of a tile are customizable: you can rearrange them by assigning to them other actions that they actually have.
 
@@ -58,7 +58,7 @@ A Quick Receipt is an option available from the Receipt from the Production pane
 
 Click the save icon (the left one on the screenshot below) to save the setup values, and click the rollback icon (the right one on the screenshot) to get back to the default values:
 
-![Save Icon](./media/customization/save-icon.png)
+![Save Icon](./media/customization/save-icon.webp)
 
 ### Default View
 
@@ -68,7 +68,7 @@ You can use SQL views option to add other values to drop-down lists. To do this,
 Administration → System Initialization → General Settings → ProcessForce → PDC
 :::
 
-![PDC Default View](./media/customization/pdc-default-view.png)
+![PDC Default View](./media/customization/pdc-default-view.webp)
 
 #### Example
 
@@ -91,8 +91,8 @@ as
 Select "DocEntry" ,"U_LineNum", "U_RscCode", "U_RscType" as "Description" from "@CT_PF_MOR16"
 ```
 
-![Custom View](./media/customization/pdc-custom-view-1.jpg)
+![Custom View](./media/customization/pdc-custom-view-1.webp)
 
-![Custom View](./media/customization/pdc-custom-view-2.jpg)
+![Custom View](./media/customization/pdc-custom-view-2.webp)
 
-![Custom View](./media/customization/pdc-custom-view-3.jpg)
+![Custom View](./media/customization/pdc-custom-view-3.webp)

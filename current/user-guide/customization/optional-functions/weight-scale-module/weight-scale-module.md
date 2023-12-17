@@ -24,7 +24,7 @@ This step displays information about the Manufacturing Order number and its fina
 
 **Note**: Only Batch-managed Items are currently supported in the PDC weighting module.
 
-![Step](./media/weight-scale-module/step-1.png)
+![Step](./media/weight-scale-module/step-1.webp)
 
 Click Next after choosing an Item.
 
@@ -38,7 +38,7 @@ In this window, apart from the information from the previous step, we can also s
 
 In this window, the Batch from which items of a particular quantity can be selected is mentioned (for Batch-managed Items). The color of a specific Batch indicates its availability (according to Batch status). If a particular Batch is not in a Released status, a user must confirm that the Batch is to be chosen anyway (dialog box).
 
-![Step](./media/weight-scale-module/step-2.png)
+![Step](./media/weight-scale-module/step-2.webp)
 
 Click Next after choosing a Batch.
 
@@ -68,10 +68,10 @@ Batch Available Quantity turns red if the weighed quantity exceeds its value.
 
 Click the Weight button to save the weighted value.
 
-![Step](./media/weight-scale-module/step-3.png)
+![Step](./media/weight-scale-module/step-3.webp)
 
 ## Step 4: Summary
 
 In this window, a summary of the whole process. Click Finish to record an Issue to Production.
 
-![Step](./media/weight-scale-module/step-4.png)
+![Step](./media/weight-scale-module/step-4.webp)

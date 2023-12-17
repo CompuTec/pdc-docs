@@ -26,11 +26,11 @@ To start working with CompuTec PDC you must:
 
 The main purpose of CompuTecPDC is to register work time (which is performed by creating Time Bookings documents in SAP B1 databases). It is counted for a specific task performed on a specific resource. To start work with CompuTec PDC, click Add New Task icon and set the details of a task.
 
-![Add New Task icon](./media/index/add-new-task-icon.jpg)
+![Add New Task icon](./media/index/add-new-task-icon.webp)
 
 A form where all details of a new task can be set will appear:
 
-![Add New Task form](./media/index/add-new-task-form.png)
+![Add New Task form](./media/index/add-new-task-form.webp)
 
 Choosing a specific Manufacturing Order allows choosing among Operations included in it. Choosing an Operation allows choosing a specific Resource to work with. If you will choose Sale Order you can choose from Manufacturing Orders connected to it.
 
@@ -42,13 +42,13 @@ Click the Plus icon after setting all details. For further information, click he
 
 The core of the PDC Work Registration application is a Task Panel, where you can set all values connected to a specific task. You can get to it by clicking a Task tile in the main form (after adding a specific task). To find out more, click here.
 
-![Task Tile](./media/index/task-tile.png)
+![Task Tile](./media/index/task-tile.webp)
 
 ### Quantity
 
 The quantity of produced items can be assigned to a specific task by clicking Confirmation Icon on Task Panel after setting the task's times.
 
-![Confirmation icon](./media/index/confirmation-icon.jpg)
+![Confirmation icon](./media/index/confirmation-icon.webp)
 
 CompuTec PDC allows to compare the following values:
 
@@ -61,9 +61,9 @@ CompuTec PDC allows to compare the following values:
 
 Work time for a specific resource in a task can be recorded in three different types:
 
-- ![Set up time icon](./media/index/setup-time-icon.jpg) set up time – time of preparation of a resource to work with, e.g. heating an oven to the required temperature
-- ![Run time icon](./media/index/run-time-icon.jpg) run time – time of resource run, during this period Items, can be produced
-- ![Downtime icon](./media/index/downtime-icon.jpg) downtime – time of a break of resource run caused by an unexpected event, e.g. downtime caused by a power cut.
+- ![Set up time icon](./media/index/setup-time-icon.webp) set up time – time of preparation of a resource to work with, e.g. heating an oven to the required temperature
+- ![Run time icon](./media/index/run-time-icon.webp) run time – time of resource run, during this period Items, can be produced
+- ![Downtime icon](./media/index/downtime-icon.webp) downtime – time of a break of resource run caused by an unexpected event, e.g. downtime caused by a power cut.
 
 You can start and stop to record a specific time by clicking a specific icon on a Task Panel and choosing a specific date and time. Click here <!-- TODO: Link --> for further information.
 
@@ -71,4 +71,4 @@ You can start and stop to record a specific time by clicking a specific icon on 
 
 A user with special privileges can have an insight into planned, booked, or currently performing work on every resource and can assign specific a specific employee to a task. To find out more, click here. <!-- TODO: Link -->
 
-![Management Board](./media/index/management-board.png)
+![Management Board](./media/index/management-board.webp)

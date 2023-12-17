@@ -40,4 +40,4 @@ CompuTec Service Manager application → PDC/WMS Licensing button
 Please use the Copy to Clipboard button and paste the information into the support ticket.
 :::
 
-![PDC Licensing](./media/pdc-licensing-request/pdc-wms-licensing-import.png)
+![PDC Licensing](./media/pdc-licensing-request/pdc-wms-licensing-import.webp)

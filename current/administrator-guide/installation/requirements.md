@@ -14,11 +14,11 @@ CompuTec PDC requires .NET Framework to work correctly. **The minimum version of
 
 `reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\full" /v version`
 
-![Prompt](./media/requirements/net-version-prompt.png)
+![Prompt](./media/requirements/net-version-prompt.webp)
 
 2. The result will show the .NET Framework version:
 
-![Result](./media/requirements/net-version-result.png)
+![Result](./media/requirements/net-version-result.webp)
 
 </details>
 
@@ -41,11 +41,11 @@ Since this version, you need to perform the following preparation to support Cry
 
 - Installed SAP APIGateway Service in SLD configuration:
 
-  ![SLD configuration](./media/requirements/sld-configuration.png)
+  ![SLD configuration](./media/requirements/sld-configuration.webp)
 
 - define an address in CompuTec PDC Settings. <!-- TODO: Link -->
 
-  ![SAP B1 API Gateway](./media/requirements/pdc-settings.png)
+  ![SAP B1 API Gateway](./media/requirements/pdc-settings.webp)
 
 ## CompuTec Labels
 

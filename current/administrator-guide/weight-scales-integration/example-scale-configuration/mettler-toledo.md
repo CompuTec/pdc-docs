@@ -28,17 +28,17 @@ This section was created based on the MettlerToledoICS429 model configuration.
 
   Line 6: SNo. Terminal.
 
-  ![Mettler](./media/mettler-toledo/mettler-01.png)
+  ![Mettler](./media/mettler-toledo/mettler-01.webp)
 
-  ![Mettler](./media/mettler-toledo/mettler-02.png)
+  ![Mettler](./media/mettler-toledo/mettler-02.webp)
 
-  ![Mettler](./media/mettler-toledo/mettler-03.png)
+  ![Mettler](./media/mettler-toledo/mettler-03.webp)
 
-  ![Mettler](./media/mettler-toledo/mettler-04.png)
+  ![Mettler](./media/mettler-toledo/mettler-04.webp)
 
-  ![Mettler](./media/mettler-toledo/mettler-05.png)
+  ![Mettler](./media/mettler-toledo/mettler-05.webp)
 
-  ![Mettler](./media/mettler-toledo/mettler-06.png)
+  ![Mettler](./media/mettler-toledo/mettler-06.webp)
 
 ## Choosing Mode for Weight Scales
 
@@ -50,7 +50,7 @@ This section was created based on the MettlerToledoICS429 model configuration.
 
     - choose Continuous print.
 
-![Mettler](./media/mettler-toledo/mettler-07.png)
+![Mettler](./media/mettler-toledo/mettler-07.webp)
 
 ## Assigning the defined Template to the weight scales
 
@@ -68,18 +68,18 @@ This section was created based on the MettlerToledoICS429 model configuration.
 
     -. click OK to save the changes.
 
-![Mettler](./media/mettler-toledo/mettler-08.png)
+![Mettler](./media/mettler-toledo/mettler-08.webp)
 
-![Mettler](./media/mettler-toledo/mettler-09.png)
+![Mettler](./media/mettler-toledo/mettler-09.webp)
 
-![Mettler](./media/mettler-toledo/mettler-10.png)
+![Mettler](./media/mettler-toledo/mettler-10.webp)
 
-![Mettler](./media/mettler-toledo/mettler-11.png)
+![Mettler](./media/mettler-toledo/mettler-11.webp)
 
-![Mettler](./media/mettler-toledo/mettler-12.png)
+![Mettler](./media/mettler-toledo/mettler-12.webp)
 
 ## Set date and time format
 
-![Mettler](./media/mettler-toledo/mettler-final.png)
+![Mettler](./media/mettler-toledo/mettler-final.webp)
 
 Now, the weight scale is correctly configured and ready to work with CompuTec Gateway and CompuTec PDC.

@@ -8,7 +8,7 @@ Please note that when using this function, all interactive icons are unavailable
 
 ---
 
-![Customized Table](./media/customized-task-list/customized-table-view.png)
+![Customized Table](./media/customized-task-list/customized-table-view.webp)
 
 To create a view, perform the following steps:
 
@@ -78,20 +78,20 @@ and omor."U_Status" in ('ST','RL')
 
 The code needs to be saved in **Query Manager**:
 
-![Query Manager](./media/customized-task-list/query-manager.png)
+![Query Manager](./media/customized-task-list/query-manager.webp)
 
 ## PDC Settings
 
 It is needed to create a PDC Setting view and select created view/query in the **Task List** field.
 
-![Task List](./media/customized-task-list/task-list.png)
+![Task List](./media/customized-task-list/task-list.webp)
 
 ## Employee Master Data
 
 The last step to use the customized task list is to assign the created PDC Setting to Employee at Employee Master Data window:
 
-![Employee Master Data](./media/customized-task-list/employee-master-data.png)
+![Employee Master Data](./media/customized-task-list/employee-master-data.webp)
 
 Example of the result in CompuTec PDC:
 
-![Customization](./media/customized-task-list/customization-example.png)
+![Customization](./media/customized-task-list/customization-example.webp)

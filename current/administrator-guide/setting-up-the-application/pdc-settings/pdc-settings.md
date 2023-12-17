@@ -18,7 +18,7 @@ You can define the settings to be taken from CompuTec PDC installation (assign j
 Administration → Setup → General → PDC Settings
 :::
 
-![PDC Settings](./media/pdc-settings/pdc-settings-general.png)
+![PDC Settings](./media/pdc-settings/pdc-settings-general.webp)
 
 Here you can define and save a set of settings that can next be assigned to a specific Employee or a specific installation of CompuTec PDC. Go to the next section to check how to do this.
 
@@ -32,7 +32,7 @@ Options present only in the PDC Settings form:
 
 - Show Date Picker – this option allows to set amount of time in minutes (e.g., 67 minutes) instead of date and time on time registration:
 
-  ![Show Date Picker](./media/pdc-settings/show-date-picker.png)
+  ![Show Date Picker](./media/pdc-settings/show-date-picker.webp)
 
 - Localizations – weighting module-related option. Only devices from localizations listed here are available in [Weighting Wizard](./../../weight-scales-integration/working-with-scales.md) (the weighting device, along with its localization, can be configured in [CompuTec Gateway Manager](./../../weight-scales-integration/computec-gateway-manager.md)). If this field is left empty, all of the devices are available.
 
@@ -50,6 +50,6 @@ Human Resources → Employee Master Data
 
 :::
 
-![Assign Settings](./media/pdc-settings/pdc-assigning-settings.png)
+![Assign Settings](./media/pdc-settings/pdc-assigning-settings.webp)
 
 Click Choose from List icon to choose one of the predefined PDC Settings.

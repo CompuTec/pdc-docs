@@ -36,7 +36,7 @@ PDC Barcode Simulator was created to:
 
 Click to download Barcode Simulator.<!--TODO: Link -->
 
-![Barcode Simulator](./media/barcodes/barcode-simulator.png)
+![Barcode Simulator](./media/barcodes/barcode-simulator.webp)
 
 1. A list of elements in a barcode (two prefixes in this example). If you want to generate a barcode without a prefix, leave the Prefix column empty.
 
@@ -56,7 +56,7 @@ Click to download Barcode Simulator.<!--TODO: Link -->
 
 7. Print the generated barcode.
 
-8. Click here to save the code as a file in .png format.
+8. Click here to save the code as a file in .webp format.
 
 In PDC Barcode Simulator, you can scan a ready barcode to check its validity and elements (in case it is a multi-prefix code) or to check if the scanning device works correctly.
 
@@ -66,7 +66,7 @@ Check the information in the next section to get to know how to create barcodes 
 
 ### Logging in form
 
-![Logging In](./media/barcodes/pdc-logging-in.png)
+![Logging In](./media/barcodes/pdc-logging-in.webp)
 
 Available barcodes:
 
@@ -96,7 +96,7 @@ Available barcodes:
 
 ### The Main Form
 
-![Main Form](./media/barcodes/pdc-main-form.png)
+![Main Form](./media/barcodes/pdc-main-form.webp)
 
 Available barcodes:
 
@@ -204,7 +204,7 @@ Available barcodes:
 
 ## The Issue to Production form
 
-![Barcode](./media/barcodes/barcode.png)
+![Barcode](./media/barcodes/barcode.webp)
 
 Available barcode:
 
@@ -214,7 +214,7 @@ Available barcode:
 
 ### Item choosing level
 
-![Weight Wizard](./media/barcodes/weight-wizard.png)
+![Weight Wizard](./media/barcodes/weight-wizard.webp)
 
 Available barcodes:
 
@@ -223,7 +223,7 @@ Available barcodes:
 
 ### Batch choosing level
 
-![Weight Wizard Batch](./media/barcodes/weight-wizard-batch.png)
+![Weight Wizard Batch](./media/barcodes/weight-wizard-batch.webp)
 
 Available barcodes:
 
