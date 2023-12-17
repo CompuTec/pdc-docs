@@ -72,30 +72,30 @@ X. A task tile displays information about the picked Operation and Resource.
 
 6. Setup start date and time. In the second row (next to the set-up time icon), a period is displayed.
 
-:::warning
+    :::warning
 
-The color of the setup date and time and run date and time may be different:
+    The color of the setup date and time and run date and time may be different:
 
-- black – planned date and period,
+    - black – planned date and period,
 
-- green – time type is running currently,
+    - green – time type is running currently,
 
-- blue – time type recorded in CompuTec PDC application (changes the record in a database after clicking the confirmation icon on the confirmation tab).
+    - blue – time type recorded in CompuTec PDC application (changes the record in a database after clicking the confirmation icon on the confirmation tab).
 
-:::
+    :::
 
 7. Item code and item description.
 
 8. This icon communicates an operation status:
 
-![Set up Icon](./media/adding-new-task/setup-icon.webp) - set up time,
+    ![Set up Icon](./media/adding-new-task/setup-icon.webp) - set up time,
 
-![Run time Icon](./media/adding-new-task/runtime-icon.webp) - run time,
+    ![Run time Icon](./media/adding-new-task/runtime-icon.webp) - run time,
 
-![Downtime Icon](./media/adding-new-task/downtime-icon.webp) - downtime,
+    ![Downtime Icon](./media/adding-new-task/downtime-icon.webp) - downtime,
 
-![Pause Icon](./media/adding-new-task/pause-icon.webp) - the task is paused.
+    ![Pause Icon](./media/adding-new-task/pause-icon.webp) - the task is paused.
 
-Clicking it leads to a task panel where you can set details of a specific task.
+    Clicking it leads to a task panel where you can set details of a specific task.
 
 X. Click the status icon to set periods for specific tasks. For more information, click [here](./task-activities/task-activities.md).

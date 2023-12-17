@@ -9,17 +9,17 @@ CompuTec PDC requires .NET Framework to work correctly. **The minimum version of
 
 <details>
   <summary>Click to see how to check .NET Framework version</summary>
+    1. Type in the following command in Command Prompt from Windows applications and click enter:
 
-1. Type in the following command in Command Prompt from Windows applications and click enter:
+        ```bat
+        reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\full" /v version
+        ```
 
-`reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\full" /v version`
+        ![Prompt](./media/requirements/net-version-prompt.webp)
 
-![Prompt](./media/requirements/net-version-prompt.webp)
+    2. The result will show the .NET Framework version:
 
-2. The result will show the .NET Framework version:
-
-![Result](./media/requirements/net-version-result.webp)
-
+        ![Result](./media/requirements/net-version-result.webp)
 </details>
 
 We recommend installing the latest version of .NET Framework – you can do it using the dedicated tool Windows Update or manually downloading the required files from the Microsoft site.

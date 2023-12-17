@@ -51,6 +51,6 @@ Configuration and work with CompuTec PDC have been tested and confirmed on the f
 
 ### Regular expression
 
-```
+```regex
 Date\s*(?<DATE>[0-9]{1,2}.[0-9]{1,2}.[0-9]{4})\s*Time\s*(?<TIME>[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}).*Serialno\s*:\s*(?<SerialNO>\d*).*N\s*:\s*[a-zA-Z]*\s*(?<minus>[-+]*)\s*[a-zA-Z]*\s*(?<NetWeight>[0-9.]*)\s*(?<Uom>(?![GT])[a-zA-Z]{1,2}).*G\s*:\s*[a-zA-Z]*\s*[-+]*\s*[a-zA-Z]*\s*(?<GrossWeight>[0-9.]*).*T\s*:\s*[a-zA-Z]*\s*[-+]*\s*[a-zA-Z]*\s*(?<Tare>[0-9.]*)
 ```

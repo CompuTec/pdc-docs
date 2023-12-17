@@ -74,18 +74,14 @@ Administration → System Initialization → General Settings → ProcessForce �
 
 **PDC Default View** = PDCVIEW for custom SQL View:
 
-MSSQL Example:
-
-```SQL
+```sql title="MS SQL Example"
 Create View [dbo].[PDCVIEW]
 as
 Select "DocEntry" ,"U_LineNum", U_RscCode+' | '+ U_RscType as "Description" from [@CT_PF_MOR16]
 GO
 ```
 
-HANA Example:
-
-```SQL
+```sql title="HANA Example"
 Create View "PDCVIEW"
 as
 Select "DocEntry" ,"U_LineNum", "U_RscCode", "U_RscType" as "Description" from "@CT_PF_MOR16"

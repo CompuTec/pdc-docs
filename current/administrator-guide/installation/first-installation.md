@@ -18,24 +18,26 @@ Be sure to fulfill the requirements described [here](./requirements.md) before s
 
 2. In the window that appears, click the "Next" button after reading the message about installation preparation.
 
-![PDC nstallation](./media/first-installation/pdc-instalation.webp)
+    ![PDC nstallation](./media/first-installation/pdc-instalation.webp)
 
 3. A window with a path of an installation destination will appear.
-
-A default path is "C:\Program Files\CompuTec\PDC3\". You can change the path by typing in a new one or browsing existing folders by clicking the "Change..." button. Click the "Next" button.
-
-![PDC Destination Folder](./media/first-installation/pdc-instalation-destination-folder.webp)
+  
+    A default path is "C:\Program Files\CompuTec\PDC3\". You can change the path by typing in a new one or browsing existing folders by clicking the "Change..." button.  
+  
+    Click the "Next" button.  
+  
+    ![PDC Destination Folder](./media/first-installation/pdc-instalation-destination-folder.webp)
 
 4. A new window appears. Click the "Install" button to start the installation.
-
-![PDC Installation Ready](./media/first-installation/pdc-installation-ready.webp)
+  
+    ![PDC Installation Ready](./media/first-installation/pdc-installation-ready.webp)
 
 5. Click the "Finish" button after reading the message to finish the installation.
-
-![PDC Installation Finish](./media/first-installation/pdc-installation-finish.webp)
+  
+    ![PDC Installation Finish](./media/first-installation/pdc-installation-finish.webp)
 
 6. The service is ready to run. You can start by clicking the shortcut created on the Windows program list.
 
 :::info
-Remember that the application needs to be [set up]../setting-up-the-application/setting-up-the-application.md) correctly after the installation.
+Remember that the application needs to be [set up](../setting-up-the-application/setting-up-the-application.md) correctly after the installation.
 :::

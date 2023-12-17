@@ -358,7 +358,7 @@ In this section, you can find a step-by-step guide on setting work time on a tas
 
 To get information on this, click [here](../adding-new-task.md).
 
-### Click a status icon on a task tile to open a task panel of a specific task.
+### Click a status icon on a task tile to open a task panel of a specific task
 
 ![Example New Task](./media/task-activities/example-new-task.webp)
 
@@ -404,41 +404,41 @@ All changes in periods are set in the CompuTec PDC application. Changes are post
 
 1. After setting all the periods, click the "complete" icon: ![Complete Icon](./media/task-activities/complete-icon.webp)
 
-The Confirmation Panel will appear:
+    The Confirmation Panel will appear:
 
-![Confirmation Panel](./media/task-activities/confirmation-panel.webp)
+    ![Confirmation Panel](./media/task-activities/confirmation-panel.webp)
 
-You can register quantity for set up time (if it is needed; this option is available only when set up time has been registered) and quantity for run time (number of Items produced during work time). When the Damaged Quantity field is filled, the Reason Code and Remarks for rework fields will be displayed and ready to fill:
+    You can register quantity for set up time (if it is needed; this option is available only when set up time has been registered) and quantity for run time (number of Items produced during work time). When the Damaged Quantity field is filled, the Reason Code and Remarks for rework fields will be displayed and ready to fill:
 
-![Wrong Quantity](./media/task-activities/wrong-quantity.webp)
+    ![Wrong Quantity](./media/task-activities/wrong-quantity.webp)
 
 2. After setting up quantities you can decide to keep the task open after registering work (no check boxes checked), to close the task or to pass it to another employee Select Employee field will be displayed in this case.
 
-![Final Option](./media/task-activities/final-options.webp)
+    ![Final Option](./media/task-activities/final-options.webp)
 
-**Close Task** – checking this option causes the following:
+    **Close Task** – checking this option causes the following:
 
-- a task with this option checked is removed from the list of tasks to do – and gets Closed status on a Gantt chart,
+    - a task with this option checked is removed from the list of tasks to do – and gets Closed status on a Gantt chart,
 
-- in Manufacturing Order, Operation tab, the Resource line is grayed out and a value in the Resource column Active is set to N,
+    - in Manufacturing Order, Operation tab, the Resource line is grayed out and a value in the Resource column Active is set to N,
 
-- a Resource for an Operation on which Close Task is used is not available to choose for a new task on CompuTec PDC.
+    - a Resource for an Operation on which Close Task is used is not available to choose for a new task on CompuTec PDC.
 
-When all of the Resources in an Operation have Active set to N, the Operation gets Finished status.
+    When all of the Resources in an Operation have Active set to N, the Operation gets Finished status.
 
-Unblocking a Resource for operation in the Manufacturing Order scope can be done by adding a Timebooking correction document with an unchecked Close Task option.
+    Unblocking a Resource for operation in the Manufacturing Order scope can be done by adding a Timebooking correction document with an unchecked Close Task option.
 
-**Pass to other** – this option adds the task to a specified employee. After accepting the task, it is passed to the chosen employee. It has to be started manually from the chosen employee level.
+    **Pass to other** – this option adds the task to a specified employee. After accepting the task, it is passed to the chosen employee. It has to be started manually from the chosen employee level.
 
-**Pass to other Resource** – this option allows to pass a Task to another Resource on registering a Timebooking or downtime. On choosing this option a drop-down list appears with Alternative Resources defined for a current Resource (it is possible to switch the Task only to an Alternative Resource with Machine Type for a current Resource. Click here to find out more about Alternative Resources definition in ProcessForce).
+    **Pass to other Resource** – this option allows to pass a Task to another Resource on registering a Timebooking or downtime. On choosing this option a drop-down list appears with Alternative Resources defined for a current Resource (it is possible to switch the Task only to an Alternative Resource with Machine Type for a current Resource. Click here to find out more about Alternative Resources definition in ProcessForce).
 
-To be able to pass a Task to another Resource it is required to check Is enabled Move to Other Resource in Employee Master Data.
+    To be able to pass a Task to another Resource it is required to check Is enabled Move to Other Resource in Employee Master Data.
 
-Click the confirmation icon to register work.
+    Click the confirmation icon to register work.
 
 3. Number of Resources – in this field, we can define a number of resources of the same kind for which work is to be recorded, e.g. if we have a Resource called Oven, here we can define how many pieces of the same equipment was used, e.g. 5 ovens. By default 1 is put in this field. In case of putting a higher value, recorded duration is the accumulated effort of each of the equipment pieces.
 
-#### Example:
+#### Example
 
 We recorded 48h, and 25s of work and set up the Number of Resources to 5. The effort is multiplied by 5 (work was performed on 5 pieces of equipment simultaneously) which results in 240h, 2m, 5s of accumulated work duration.
 
@@ -448,7 +448,7 @@ We recorded 48h, and 25s of work and set up the Number of Resources to 5. The ef
 Please mind that the Number of Resources field value is set up to 1 by default, regardless of the Number of Resources field value of a corresponding Resource record in ProcessForce.
 :::
 
-### Recording quantity without closing a Task.
+### Recording quantity without closing a Task
 
 You can use the plus icon to record quantity without closing a Task: ![Record Quantity Icon](./media/task-activities/record-quantity-icon.webp)
 

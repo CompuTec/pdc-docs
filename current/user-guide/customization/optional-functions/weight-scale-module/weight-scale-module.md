@@ -14,7 +14,7 @@ The icon coloring indicates an approximate level of completion of the issue to p
 
 :::caution
 
-It is required to configure the connection to a weighing device before starting work with this module. You can check how to do this [here]../../../../administrator-guide/weight-scales-integration/weight-scales-integration.md).
+It is required to configure the connection to a weighing device before starting work with this module. You can check how to do this [here](../../../../administrator-guide/weight-scales-integration/weight-scales-integration.md).
 
 :::
 

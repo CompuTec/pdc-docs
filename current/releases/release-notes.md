@@ -10,7 +10,7 @@ Installer is ready to download from here<!-- TODO: Link -->.
 
 ## CompuTec PDC 3.10.21.1
 
-**11 December 2023**
+### 11 December 2023
 
 | Issue Type  | Component/s | Release Note                                                                                                         | Linked issue/s\*\* |
 | ----------- | ----------- | -------------------------------------------------------------------------------------------------------------------- | ------------------ |

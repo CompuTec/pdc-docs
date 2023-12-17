@@ -100,33 +100,33 @@ A task tile within Management Board is a graphic representation of a specific ta
 
 2. Resource history – clicking it displays the history of use of the specific resource.
 
-![Resource History](./media/management-board/management-board-resource-history.webp)
+    ![Resource History](./media/management-board/management-board-resource-history.webp)
 
-Document Status:
+    Document Status:
 
-![Finished and Closed Task Icon](./media/management-board/finished-closed-task-icon.webp) - finished and closed task,
+    ![Finished and Closed Task Icon](./media/management-board/finished-closed-task-icon.webp) - finished and closed task,
 
-![Active Task Icon](./media/management-board/active-task-icon.webp) - task currently active,
+    ![Active Task Icon](./media/management-board/active-task-icon.webp) - task currently active,
 
-![Planned Task Icon](./media/management-board/planned-task-icon.webp) - planned task. It is possible to assign an employee to a task with this status. To do that, click the icon and choose an employee from the list.
+    ![Planned Task Icon](./media/management-board/planned-task-icon.webp) - planned task. It is possible to assign an employee to a task with this status. To do that, click the icon and choose an employee from the list.
 
-![Resource History](./media/management-board/resource-history-employee.webp)
+    ![Resource History](./media/management-board/resource-history-employee.webp)
 
 3. Time graph – a graphic representation of planned and current time:
 
-![Management Board Graph](./media/management-board/management-board-graph.webp)
+    ![Management Board Graph](./media/management-board/management-board-graph.webp)
 
-a. a point of 0% progress, e.g., noon in planned 12:00-14:00 work time,
+    a. a point of 0% progress, e.g., noon in planned 12:00-14:00 work time,
 
-b. a point of 100% progress, e.g., 14:00 in planned 12:00-14:00 work time,
+    b. a point of 100% progress, e.g., 14:00 in planned 12:00-14:00 work time,
 
-c. a bar of real progress,
+    c. a bar of real progress,
 
-d. a bar of planned progress.
+    d. a bar of planned progress.
 
-**Example**:
+    **Example**:
 
-An example used on a picture above a bar of planned progress indicates that the end of the scheduled work period has already passed. But a bar of real progress shows that work has stopped halfway through.
+    An example used on a picture above a bar of planned progress indicates that the end of the scheduled work period has already passed. But a bar of real progress shows that work has stopped halfway through.
 
 4. Resource code.
 

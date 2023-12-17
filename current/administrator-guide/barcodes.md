@@ -42,9 +42,9 @@ Click to download Barcode Simulator.<!--TODO: Link -->
 
 2. A list of all input signs:
 
-- \[STX\] means – CTRL+B
-- \[ETX\] means – CTRL+C
-- \[GroupSeparator\] – a code blocks separator (for codes with more than one prefix)
+    - \[STX\] means – CTRL+B
+    - \[ETX\] means – CTRL+C
+    - \[GroupSeparator\] – a code blocks separator (for codes with more than one prefix)
 
 3. Adding line (for multi-prefix codes).
 

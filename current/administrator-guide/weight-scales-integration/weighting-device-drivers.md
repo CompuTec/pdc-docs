@@ -6,7 +6,7 @@ sidebar_position: 6
 
 Here, you can find information on weighting device drivers: the ones available by default and tips on creating your own.
 
-## Currently supported devices:
+## Currently supported devices
 
 Precisa:
 
@@ -34,7 +34,7 @@ It is possible to create your driver for a device not listed in the available de
 
 :::note
 
-If a required device is not on the list in the previous paragraph and you are unwilling or unable to create a driver, the CompuTec team can do it for you for a fee. To order such a service, please create a support ticket at https://support.computec.pl.
+If a required device is not on the list in the previous paragraph and you are unwilling or unable to create a driver, the CompuTec team can do it for you for a fee. To order such a service, please create a support ticket at [CompuTec Support](https://support.computec.pl).
 
 :::
 
@@ -44,21 +44,21 @@ The following example is created using Microsoft Visual Studio.
 
 1. Create a project:
 
-![Driver](./media/weighting-device-drivers/new-driver-project.webp)
+    ![Driver](./media/weighting-device-drivers/new-driver-project.webp)
 
 2. Add dependencies to the provided libraries:
 
-- Computec.WeightScale.dll<!-- TODO: Link -->
+    - Computec.WeightScale.dll<!-- TODO: Link -->
 
-- CompuTec.ProcessForce.WeightScaleBase.dll<!-- TODO: Link -->
+    - CompuTec.ProcessForce.WeightScaleBase.dll<!-- TODO: Link -->
 
 3. Prepare a class of the drive:
 
-![Class preparation](./media/weighting-device-drivers/class-preparation.webp)
+    ![Class preparation](./media/weighting-device-drivers/class-preparation.webp)
 
 4. Implement the methods and update them in accordance with the device requirements:
 
-![Method implementation](./media/weighting-device-drivers/method-implementation.webp)
+    ![Method implementation](./media/weighting-device-drivers/method-implementation.webp)
 
 You can check the class in the example driver (CT Test Weight Scale). You can download it from here<!-- TODO: Link -->.
 

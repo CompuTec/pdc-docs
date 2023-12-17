@@ -10,7 +10,7 @@ Here you can find information on PDC Settings: what details can be defined and h
 
 ## General Settings
 
-You can define the settings to be taken from CompuTec PDC installation (assign just to it) or predefined settings templates (assign to a specific Employee) [CompuTec PDC installation]../setting-up-the-application.md#setting-up-the-application) (assign just to it), or from predefined settings templates (assign to a particular Employee). The way of getting the settings can be set up in [ProcessForce settings]../setting-up-the-application.md#processforce-settings) (PDC Way of Getting Settings field).
+You can define the settings to be taken from CompuTec PDC installation (assign just to it) or predefined settings templates (assign to a specific Employee) [CompuTec PDC installation](../setting-up-the-application.md#setting-up-the-application) (assign just to it), or from predefined settings templates (assign to a particular Employee). The way of getting the settings can be set up in [ProcessForce settings](../setting-up-the-application.md#processforce-settings) (PDC Way of Getting Settings field).
 
 ## PDC Settings templates
 
@@ -22,7 +22,7 @@ Administration → Setup → General → PDC Settings
 
 Here you can define and save a set of settings that can next be assigned to a specific Employee or a specific installation of CompuTec PDC. Go to the next section to check how to do this.
 
-Most of the options are available either in [ProcessForce]../setting-up-the-application.md#processforce-settings) or [PDC-level]../setting-up-the-application.md#setting-up-the-application) level settings.
+Most of the options are available either in [ProcessForce](../setting-up-the-application.md#processforce-settings) or [PDC-level](../setting-up-the-application.md#setting-up-the-application) level settings.
 
 Options present only in the PDC Settings form:
 
@@ -34,7 +34,7 @@ Options present only in the PDC Settings form:
 
   ![Show Date Picker](./media/pdc-settings/show-date-picker.webp)
 
-- Localizations – weighting module-related option. Only devices from localizations listed here are available in [Weighting Wizard]../../weight-scales-integration/working-with-scales.md) (the weighting device, along with its localization, can be configured in [CompuTec Gateway Manager]../../weight-scales-integration/computec-gateway-manager.md)). If this field is left empty, all of the devices are available.
+- Localizations – weighting module-related option. Only devices from localizations listed here are available in [Weighting Wizard](../../weight-scales-integration/working-with-scales.md) (the weighting device, along with its localization, can be configured in [CompuTec Gateway Manager](../../weight-scales-integration/computec-gateway-manager.md)). If this field is left empty, all of the devices are available.
 
 - Resources view – click [here](./resource-view.md) to find out more.
 
