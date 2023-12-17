@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Barcodes
 
 Many of CompuTec PDC functions can be operated by scanning barcodes. Here you can find information on barcode scanning.
@@ -30,13 +34,17 @@ PDC Barcode Simulator was created to:
 
 - simulate barcode scanning in CompuTec PDC (for testing purposes).
 
-<!-- Click to [here](./media/PDC%20Barcode%20Simulator.zip) download Barcode Simulator. -->
+Click to download Barcode Simulator.<!--TODO: Link -->
 
-![Barcode Simulator](./media/barcode-simulator.png)
+![Barcode Simulator](./media/barcodes/barcode-simulator.png)
 
 1. A list of elements in a barcode (two prefixes in this example). If you want to generate a barcode without a prefix, leave the Prefix column empty.
 
-2. A list of all input signs. [STX] means – CTRL+B, [ETX] means – CTRL+C, [GroupSeparator] – a code blocks separator (for codes with more than one prefix)
+2. A list of all input signs:
+
+- \[STX\] means – CTRL+B
+- \[ETX\] means – CTRL+C
+- \[GroupSeparator\] – a code blocks separator (for codes with more than one prefix)
 
 3. Adding line (for multi-prefix codes).
 
@@ -58,17 +66,37 @@ Check the information in the next section to get to know how to create barcodes 
 
 ### Logging in form
 
-![Logging In](./media/pdc-logging-in.png)
+![Logging In](./media/barcodes/pdc-logging-in.png)
 
 Available barcodes:
 
 - Employee code – employee logging in (OHEM table, U_PDC_BARCODE field)
+    <details>
+        <summary>Click to check an example code</summary>
+        <table>
+            <thead>
+                <tr>
+                    <th>Barcode</th>
+                    <th rowspan="2">Represents</th>
+                </tr>
+                <tr>
+                    <th>Employee code (OHEM → U_PDC_BARCODE)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1234</td>
+                    <td>Employee with code 1234</td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
 
 - (99)employee_code – the same as the previous one with the 99 prefixes.
 
 ### The Main Form
 
-![Main Form](./media/pdc-main-form.png)
+![Main Form](./media/barcodes/pdc-main-form.png)
 
 Available barcodes:
 
@@ -115,8 +143,60 @@ Available barcodes:
 - (99)T000 – starts the Time Booking process,
 
 - Sign code (a Task code) – choosing a Task (@CT_PF_OTRT table, Code field),
+    <details>
+        <summary>Click to check an example code</summary>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th>Barcode</th>
+                    <th rowspan="2">Represents</th>
+                </tr>
+                <tr>
+                    <th>Tile code (@CT_PF_OTRT→ Code)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SQL Example</td>
+                    <td>00000000000000000000000000001H</td>
+                    <td>Tile with code 00000000000000000000000000001H</td>
+                </tr>
+                <tr>
+                    <td>HANA Example</td>
+                    <td>0000000001H</td>
+                    <td>Tile with code 0000000001H</td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
 
 - 22-sign code (Manufacturing Order DocEntry and line number, @CT_PF_MOR16 table, fields: DocEntry, U_LineNum) – adding a Task, DocEntry, and a line number are completed with 0s to keep a fixed number length,
+    <details>
+        <summary>Click to check an example code</summary>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Barcode</th>
+                    <th rowspan="2">Represents</th>
+                </tr>
+                <tr>
+                    <th>Manufacturing Order Document Doc Entry(11 characters)</th>
+                    <th>Line number (11 characters)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>00000001234</td>
+                    <td>00000000005</td>
+                    <td rowspan="2">MOR doc entry 1234 and line number 5</td>
+                </tr>
+                <tr>
+                    <td colspan="2">0000000123400000000005</td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
 
 - (96)task_code (@CT_PF_OTRT table, Code field) – choosing a Task,
 
@@ -124,7 +204,7 @@ Available barcodes:
 
 ## The Issue to Production form
 
-![Barcode](./media/barcode.png)
+![Barcode](./media/barcodes/barcode.png)
 
 Available barcode:
 
@@ -134,16 +214,18 @@ Available barcode:
 
 ### Item choosing level
 
-![Weight Wizard](./media/weight-wizard.png)
+![Weight Wizard](./media/barcodes/weight-wizard.png)
 
 Available barcodes:
 
-    item_code – choose an Item from the list,
-    (91)item_code(99)item_sequence(10)batch_code) – choose Item and Batch (Sequence and Batch field are optional).
+- item_code – choose an Item from the list,
+- (91)item_code(99)item_sequence(10)batch_code) – choose Item and Batch (Sequence and Batch field are optional).
 
 ### Batch choosing level
 
+![Weight Wizard Batch](./media/barcodes/weight-wizard-batch.png)
+
 Available barcodes:
 
-    batch_code – chooses a Batch from the list,
-    (10)batch_code – chooses a Batch from the list.
+- batch_code – chooses a Batch from the list,
+- (10)batch_code – chooses a Batch from the list.

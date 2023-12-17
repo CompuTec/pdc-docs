@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Setting up the application
 
 Here you can find information on the application requirements and setup.
@@ -18,53 +22,58 @@ To be used CompuTec PDC application requires the following:
   Main Menu → Human Resources → Employee Master Data
   :::
 
-![Setting Up The Application](./media/employee-master-data-general.png)
+![Setting Up The Application](./media/setting-up-the-application/employee-master-data-general.png)
 
 - The active Employee checkbox has to be checked to use this Employee in CompuTec PDC,
 
 - PDC Login and Password defined
 
-- Management Board checkbox – checking it is optional; it allows access to the [Manager](./../../user-guide/management-board.md)[ Board](./../../user-guide/management-board.md) and [Weight Management Board](./../../user-guide/customization/optional-functions/) within the CompuTec PDC application,
+- Management Board checkbox – checking it is optional; it allows access to the [Manager Board](./../../user-guide/management-board.md) and [Weight Management Board](./../../user-guide/customization/optional-functions/weight-scale-module/weight-management-board.md) within the CompuTec PDC application,
 
-- PDC Form Settings Enabled – checking it is optional; it gives access to Form Settings for CompuTec PDC for a specific employee. This allows choosing columns to be displayed in specific PDC forms and their order.
+- PDC Form Settings Enabled – checking it is optional; it gives access to [Form Settings](./../../user-guide/customization/customization.md#form-settings) for CompuTec PDC for a specific employee. This allows choosing columns to be displayed in specific PDC forms and their order.
+  <details>
+    <summary>Click here to find out more</summary>
+    <div>
+      Example of Form Settings for Operation Properties:
+      ![Form settings](./media/setting-up-the-application/form-settings.png)
+    </div>
+  </details>
 
-- Labour Code – choosing Resource (only of Labour type) according to which specific employee work time is counted, e.g., there is a Resource called Press Operator with a specified code. Here you can assign the code to a particular employee. An Employee with a Labour Code can be assigned to a Task.
+- Labour Code – choosing Resource (only of Labour type) according to which specific employee work time is counted, e.g., there is a Resource called Press Operator with a specified code. Here you can assign the code to a particular employee. An Employee with a Labour Code can be [assigned to a Task](./../../user-guide/task-activities/task-activities.md).
 
-- PDC Settings – a set of individual CompuTec PDC and ProcessForce settings that can be assigned to a specific Employee or a CompuTec PDC installation. Click here to find out more,
+- PDC Settings – a set of individual CompuTec PDC and ProcessForce settings that can be assigned to a specific Employee or a CompuTec PDC installation. Click [here](./pdc-settings/pdc-settings.md) to find out more,
 
 - PDC RFID UI – an RFID identification code for logging in using RFID devices assigned to a specific Employee. Click here to find out more,
 
 - PDC Barcode – a barcode assigned to an Employee, used for logging in (if barcode scanning devices are used),
 
-- Is Enabled Move to other Resource – this checkbox determines if this employee can move a Task to an Alternative Resource on registering time or downtime on a Task,
+- Is Enabled Move to other Resource – this checkbox determines if this employee can move a Task to an Alternative Resource <!-- TODO: Link --> on registering time or downtime on a Task,
 
 - Is Technician – a user with this checkbox checked has access to all not closed Downtime documents assigned to them and can modify Downtime Reason and close Downtime documents assigned to them,
 
 - Is DownTime Supervisor – a user with this checkbox checked has the same privileges as Technician but for all the Downtime documents in the system. The supervisor can also change a Technician assigned to any Downtime document.
 
-## Setup
+## Setting up the application
 
 After running the application, click the first icon on the top menu and choose "Settings":
 
-![PDC Settings](./media/pdc-settings.png)
+![PDC Settings](./media/setting-up-the-application/pdc-settings.png)
 
 The Settings tab is divided into three sections:
 
 ### Connection
 
-![PDC Connection](./media/pdc-connection.png)
-
 :::caution
-
-For a description of the configuration for the AppEngine plugin version, click here.
-
+For a description of the configuration for the AppEngine plugin version, click here <!-- TODO: Link -->.
 :::
+
+![PDC Connection](./media/setting-up-the-application/pdc-connection.png)
 
 Here you have to enter the information needed for connection to SAP Business One.
 
 Enter the required data in a new window.
 
-1. Type in the AppEngine server address. It enables connection to AppEngine. It consists of a server IP address or machine name (or simply 'localhost' – if CompuTec PDC and CT Engine are installed on the same machine) and a port. By default, the 8080 port is used (the port can be changed if needed. Click here to check how to do this).
+1. Type in the AppEngine server address. It enables connection to AppEngine. It consists of a server IP address or machine name (or simply 'localhost' – if CompuTec PDC and CT Engine are installed on the same machine) and a port. By default, the 8080 port is used (the port can be changed if needed. Click [here](../weight-scales-integration/computec-gateway-manager.md) to check how to do this).
 
 2. Type in SAP Business One user ID of a chosen database. The user has to have at least an Indirect Access SAP B1 license assigned and a ProcessForce license.
 
@@ -80,7 +89,7 @@ Enter the required data in a new window.
 
 ### Interface
 
-![Interface](./media/pdc-interface.png)
+![Interface](./media/setting-up-the-application/pdc-interface.png)
 
 1. Theme – you can choose a light or dark color set for the application.
 
@@ -94,7 +103,7 @@ Enter the required data in a new window.
 
 6. Show Date Picker – click [here](./../../administrator-guide/setting-up-the-application/pdc-settings/pdc-settings.md).
 
-<!-- 7. Show WMS Switch Button – if you are using [the CompuTec WMS application](./../../../wms-docs/administror-guide/installation/wms-server/), you can check Show WMS Switch Button. This will display the button in CompuTec PDC, allowing switching between two applications. A default path will be chosen. If CompuTec WMS is installed on another path, you can choose it by clicking the button next to the path field. -->
+7. Show WMS Switch Button – if you are using the CompuTec WMS application<!-- TODO: Link -->, you can check Show WMS Switch Button. This will display the button in CompuTec PDC, allowing switching between two applications. A default path will be chosen. If CompuTec WMS is installed on another path, you can choose it by clicking the button next to the path field.
 
 8. PDC Mode – specific / all Resource indicator – this option is assigned to a specific device. It is possible to determine whether a specific employee can add a Task on any Resource from a database or just one specified for the device. When choosing one Resource, a new field will be displayed. It is required to fill it with a Resource name.
 
@@ -106,13 +115,15 @@ Enter the required data in a new window.
 
 ### Other
 
-![Other Settings](./media/other-settings.png)
+![Other Settings](./media/setting-up-the-application/other-settings.png)
 
 #### CT Labels Settings
 
-Web Address CT Label
+CT Label Address
 
-Selection Printer
+Selection Printer - select a printer defied in CompuTec Labels
+
+SAP API Gateway Address - this setting is required for Crystal Report. Click here for more details
 
 ### RFID Settings
 
@@ -125,10 +136,12 @@ Click [here](./rfid.md) to find out more about RFID settings.
 2. Click Connect in the upper menu:
 
 3. Now, you can log in using CompuTec PDC login and CompuTec PDC password in the Login and Password fields, respectively. The connection status is communicated in the lower part of the screen.
+   ![Log In](./media/setting-up-the-application/log-in-connected.png)
 
-![Log In](./media/log-in-connected.png) 4. The name of the user defined in Employee Master Data will be displayed in the right-down corner of the form after logging in:
+4. The name of the user defined in Employee Master Data will be displayed in the right-down corner of the form after logging in:
+   ![Logged In](./media/setting-up-the-application/logged-in.png)
 
-![Logged In](./media/logged-in.png) 5. Service is up and ready to work with. On the lower part of the screen, the function buttons are displayed (from left to right):
+5. Service is up and ready to work with. On the lower part of the screen, the function buttons are displayed (from left to right):
 
 - Adding a new task,
 
@@ -144,7 +157,7 @@ In SAP Business One with ProcessForce installed, you can find CompuTec PDC Setti
 
 SAP Business One → Administration → System Initialization → General Settings → ProcessForce tab → PDC tab:
 
-![General Settings](./media/general-settings.jpg)
+![General Settings](./media/setting-up-the-application/general-settings.jpg)
 
 - **Automatically use left quantity as picked** – this option concerns Production Issue and Receipt from the application level: possibility to automatically assign planned quantity for Pick Order, Pick Receipt, on both or none of it (if not set up for automatic use, the quantity will be set up to zero).
 
@@ -153,12 +166,22 @@ SAP Business One → Administration → System Initialization → General Settin
 - **Activity Type** – here, you can determine the activity type that will be automatically assigned to it on creation from the PDC level.
 
 - **Show not closed Task in future section** – when the option is checked, and on the Confirmation Panel checkbox Close Task is unchecked, then after registering a document, the Task tile stays on the main panel.
+  <details>
+    <summary>Click here to find out more</summary>
+    <div>
+      ![Confirmation Panel](./media/setting-up-the-application/confirmation-panel.png)
+    </div>
+  </details>
 
 - **Create a new task when Down Register** – set to 'Yes': a new Time Booking is created and a new tile with a Task in the main window. Set to 'No': action will be determined by Action when Down Registration option (see below).
 
 - **Pause all tasks when Down Register** – it is possible to define whether all tasks are paused on Downtime registration (in case more than one employee works on the resource).
 
-- **Action when Down Register** – options: Ask – upon registering Down Time, the user will be asked to decide whether to register Time Booking or register just Quantity, Create Time Booking – upon registering Down Time, Time Booking will be created, Only Quantity Registration – upon registering Down Time, only Quantity will be registered.
+- **Action when Down Register** options:
+
+  - **Ask** – upon registering Down Time, the user will be asked to decide whether to register Time Booking or register just Quantity,
+  - **Create Time Booking** – upon registering Down Time, Time Booking will be created,
+  - **Only Quantity Registration** – upon registering Down Time, only Quantity will be registered.
 
 - **Close All Labour when Closing Task** – this option determines whether Labour connected to the task is automatically finished on closing the task.
 
@@ -166,7 +189,9 @@ SAP Business One → Administration → System Initialization → General Settin
 
 - **PDC Default View** – predefined default SQL view needed for personalization options.
 
-SQL Example
+For example, **PDC Default View** = PDCVIEW for custom SQL View:
+
+:::info[MySQL Example]
 
 ```SQL
 Create View [dbo].[PDCVIEW]
@@ -175,7 +200,9 @@ Select "DocEntry" ,"U_LineNum", U_RscCode+' | '+ U_RscType as "Description" from
 GO
 ```
 
-HANA Example
+:::
+
+:::info[HANA Example]
 
 ```SQL
 Create View "PDCVIEW"
@@ -183,13 +210,15 @@ as
 Select "DocEntry" ,"U_LineNum", "U_RscCode", "U_RscType" as "Description" from "@CT_PF_MOR16"
 ```
 
+:::
+
 How to use a View in PDC:
 
-![PDC View](./media/pdc-view-1.jpg)
+![PDC View 1](./media/setting-up-the-application/pdc-view-1.jpg)
 
-![PDC View](./media/pdc-view-2.jpg)
+![PDC View 2](./media/setting-up-the-application/pdc-view-2.jpg)
 
-![PDC View](./media/pdc-view-3.jpg)
+![PDC View 3](./media/setting-up-the-application/pdc-view-3.jpg)
 
 - **PDC Way of Getting Settings** – a settings template (check the section below for more information) can be assigned to an employee or an installation of CompuTec PDC. Here you can decide whether a settings template is taken from an installation or employee settings first.
 
@@ -219,7 +248,7 @@ How to use a View in PDC:
 
   - Yes – between each weighing, the user sees a confirm message:
 
-  ![Weighting Message](./media/weighting-message.png)
+  ![Weighting Message](./media/setting-up-the-application/weighting-message.png)
 
 - **Range from Mode**:
 
@@ -229,24 +258,24 @@ How to use a View in PDC:
 
   - Remaining Quantity – the range from the parameter in the weight scale cannot be higher than the Remaining quantity (3 in the picture); for example, in the below image, you won't be able to select the weight scale if Range From is 100 KG.
 
-  ![Weight Range](./media/weight-range.png)
+  ![Weight Range](./media/setting-up-the-application/weight-range.png)
 
 - **Show Not Finished Weight Documents** – if this option is checked, on another logging in of a user, a window with not finished weight documents will be displayed:
 
-  ![Select Weight Document](./media/select-weight-document.png)
+  ![Select Weight Document](./media/setting-up-the-application/select-weight-document.png)
 
   From here, the user can resume work on a specific document, close a document, or close this window (after closing the window, it is still possible to reach weight documents through [Weight Management Board](./../../user-guide/customization/optional-functions/)).
 
-- **Is Force Order Enabled for Weight Documents** – if this option is checked, the application force order of weighing is based on the order set in Operation Bind for a related Manufacturing Order.
+- **Is Force Order Enabled for Weight Documents** – if this option is checked, the application force order of weighing is based on the order set in Operation Bind<!-- TODO: Link --> for a related Manufacturing Order.
 
-- **Is Precision Weight Enabled for Weight Documents** – if this option is saved, you cannot issue on Weight Document more than the related Planned Quantity (within a weight scale precision range).
+- **Is Precision Weight Enabled for Weight Documents** – if this option is saved, you cannot issue on [Weight Document](./../../user-guide/customization/optional-functions/weight-scale-module/weight-scale-module.md) more than the related Planned Quantity (within a weight scale precision range).
 
 - **Auto Logout Delay(s)** – a number of seconds of inactivity after which the application automatically logs out a currently logged-in user (if it is set to '0', the option is inactive).
 
-- **Synchronize team works** – Team Log related option. If this option is checked, Team Leader's starting time on a Task starts for all related Employees. Also, closing a Task (booking time), do the same for all related employees.
+- **Synchronize team works** – [Team Log](./../../user-guide/task-activities/task-activities.md) related option. If this option is checked, Team Leader's starting time on a Task starts for all related Employees. Also, closing a Task (booking time), do the same for all related employees.
 
 - **Blocked time type, if the previous operation was not closed** – (values: 'All,' 'Run') if 'All' is chosen, it is impossible to start an Operation if a previous one on this Manufacturing Order is not finished. If the option is set to 'Run,' it is possible to start 'Set up' time on an Operation even when the previous Operation is set to 'Run.'
 
 - **Force tare between each weighing**– if the option is checked, it is required to click 'Tare' on each weighing (find out more about the [Weighing Module](./../../user-guide/customization/optional-functions/weight-scale-module/weight-scale-module.md)).
 
-- **Show all Tasks** – this allows access to all of the user's Tasks on all Resources despite using the Resource Code option. The user cannot add any new Task to Resources other than assigned.
+- **Show all Tasks** – this allows access to all of the user's Tasks on all Resources despite using the [Resource Code](./pdc-settings/pdc-settings.md#pdc-settings-templates) option. The user cannot add any new Task to Resources other than assigned.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Resources View
 
 The purpose of this function is to filter tasks by multiple Resources.
@@ -6,7 +10,7 @@ The purpose of this function is to filter tasks by multiple Resources.
 
 ## Requirements
 
-The option requires the use of AppEngine's MO360 plugin. Click here for more information about AppEngine and AppEngine plugin installation.
+The option requires the use of AppEngine's MO360 plugin. Click here<!-- TODO: Link --> for more information about AppEngine and AppEngine plugin installation.
 
 Minimal related versions:
 
@@ -20,23 +24,23 @@ Minimal related versions:
 
 Go to AppEngine, MO360 to define a view with multiple Resources:
 
-![Main View](./media/mo360-main-view.png)
+![Main View](./media/resource-view/mo360-main-view.png)
 
 Click Add View:
 
-![MO360 Add View](./media/mo360-add-view.png)
+![MO360 Add View](./media/resource-view/mo360-add-view.png)
 
 Define the view details:
 
-![View Details](./media/view-details.png)
+![View Details](./media/resource-view/view-details.png)
 
 Now the view is available in the main MO360 view:
 
-![New View](./media/new-view.png)
+![New View](./media/resource-view/new-view.png)
 
 Open the view and choose the All option for the Resources:
 
-![All Resources](./media/all-resources.png)
+![All Resources](./media/resource-view/all-resources.png)
 
-After defining this view, you can assign it in **ADD LINK** PDC Settings.
+After defining this view, you can assign it in [PDC Settings](./pdc-settings.md).
 In this example, in CompuTec PDC, you can see only tasks for the following Resources: Rsc01, Rsc02, and Rsc03.

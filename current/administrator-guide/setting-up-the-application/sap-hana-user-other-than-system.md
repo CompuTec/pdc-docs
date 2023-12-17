@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # SAP HANA user other than SYSTEM
 
 In some cases, a customer would like to use a HANA database user other than SYSTEM, e.g., to avoid giving employees access to all related privileges (as the SYSTEM user has all the privileges needed to set up, manage and update in the system). Here you can find requirements for setting up another user in the system that can be used to operate on Crystal reports through CompuTec PDC.
@@ -42,6 +46,6 @@ The SBOCOMMON schema is created during the installation of the SAP Business One 
 
 Additionally, the required schema has to be added to the user with the following privileges (in the following example user is B1DBUSER, and the required scheme is PFDEMOGB_CT):
 
-![System](./media/sys.png)
+![System](./media/sap-hana-user-other-than-system/sys.png)
 
-![System](./media/sys2.png)
+![System](./media/sap-hana-user-other-than-system/sys2.png)

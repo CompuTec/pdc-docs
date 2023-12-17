@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # CompuTec PDC license request
 
 To obtain a license file, please create a support ticket via support.computec.pl (Type: Information, Component: License request) and provide the following information:
@@ -24,16 +28,16 @@ By default, we generate CompuTec PDC/WMS demo/test licenses for 2 Terminals/User
 
 The information needed for generating the license located on PDC/WMS LICENSING window, Import tab:
 
-:::info
+:::info Location
 CompuTec Service Manager application → PDC/WMS Licensing button
 :::
 
-- Full Server Name,
+- **Full Server Name**
 
-- Terminal License Key (5 blocks of 8 characters, separated by a dash sign).
+- **Terminal License Key** (5 blocks of 8 characters, separated by a dash sign)
 
 :::caution
 Please use the Copy to Clipboard button and paste the information into the support ticket.
 :::
 
-![PDC Licensing](./media/pdc-wms-licensing-import.png)
+![PDC Licensing](./media/pdc-licensing-request/pdc-wms-licensing-import.png)

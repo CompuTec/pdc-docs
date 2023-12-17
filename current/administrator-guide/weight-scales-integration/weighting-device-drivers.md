@@ -1,32 +1,34 @@
+---
+sidebar_position: 6
+---
+
 # Weighting device drivers
 
 Here, you can find information on weighting device drivers: the ones available by default and tips on creating your own.
-
----
 
 ## Currently supported devices:
 
 Precisa:
 
-    XB320M
-    480S/BK1200D
-    XB120A
+- XB320M
+- 480S/BK1200D
+- XB120A
 
 Mettler Toledo:
 
-    ICS429
+- ICS429
 
 Avery Weigh-Tronix
 
-    ZM510
+- ZM510
 
 The devices are available to choose from the CompuTec Gateway Manager:
 
-![Gateway](./media/gateway-devices.png)
+![Gateway devices](./media/weighting-device-drivers/gateway-devices.png)
 
 'CT Test Weight Scale' is a test driver that generates random weighting data for test purposes.
 
-Custom driver creation and usage
+## Custom driver creation and usage
 
 It is possible to create your driver for a device not listed in the available devices list from the previous point.
 
@@ -36,34 +38,34 @@ If a required device is not on the list in the previous paragraph and you are un
 
 :::
 
-## A driver creation
+### A driver creation
 
 The following example is created using Microsoft Visual Studio.
 
 1. Create a project:
 
-  ![Driver](./media/new-driver-project.png)
+![Driver](./media/weighting-device-drivers/new-driver-project.png)
 
 2. Add dependencies to the provided libraries:
 
-  Computec.WeightScale.dll
+- Computec.WeightScale.dll<!-- TODO: Link -->
 
-  CompuTec.ProcessForce.WeightScaleBase.dll
+- CompuTec.ProcessForce.WeightScaleBase.dll<!-- TODO: Link -->
 
 3. Prepare a class of the drive:
 
-  ![Class](./media/class-preparation.png)
+![Class preparation](./media/weighting-device-drivers/class-preparation.png)
 
 4. Implement the methods and update them in accordance with the device requirements:
 
-  ![Method](./media/method-implementation.png)
+![Method implementation](./media/weighting-device-drivers/method-implementation.png)
 
-  You can check the class in the example driver (CT Test Weight Scale). You can download it from here: [here](./media/TestDevice.cs).
+You can check the class in the example driver (CT Test Weight Scale). You can download it from here: [here](./media/TestDevice.cs).
 
-## Usage
+### Usage
 
 Once the driver is created, place it in the following directory (this is the default installation directory):
 
-![Directory](./media/Directory.png)
+![Driver directory](./media/weighting-device-drivers/driver-directory.png)
 
 Now, the driver should be available in the list in CompuTec Gateway Manager (please check the top screenshot on this page).
