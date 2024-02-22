@@ -7,7 +7,7 @@ sidebar_position: 2
 This option allows to manage of all weight documents in the system.
 
 :::note
-    Remember that only users with [Management Board privileges](../../../../administrator-guide/setting-up-the-application/setting-up-the-application.md) can use this option.
+    Remember that only users with [Management Board privileges](../../../../administrator-guide/setting-up-the-application/overview.md) can use this option.
 :::
 
 ## Opening
@@ -30,7 +30,7 @@ Checking the 'Only active documents' checkbox filters the Documents table and le
 
 In this table, all weight documents are available. Right-click on a specific line opens a context menu (work only for the document in 'In Progress' status):
 
-**Continue Process** – opens [Weighting Wizard](./weight-scale-module.md) for this document
+**Continue Process** – opens [Weighting Wizard](./overview.md) for this document
 
 **Close Documen**t – closes this document
 

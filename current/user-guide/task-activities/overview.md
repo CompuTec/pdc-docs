@@ -69,7 +69,7 @@ Operation Properties and data connected to it are displayed here. Properties can
 
 ![Properties for Operation](./media/task-activities/properties-for-operation.webp)
 
-Using form settings, you can define which columns (and in what order) are displayed here. Click [here](../../administrator-guide/setting-up-the-application/setting-up-the-application.md#setting-up-the-application) to find out more.
+Using form settings, you can define which columns (and in what order) are displayed here. Click [here](../../administrator-guide/setting-up-the-application/overview.md) to find out more.
 
 Specific Operation Property can have a particular value assigned to it in Manufacturing Order. This value can be numeric (e.,g. more than 10, equal to 10) or word (e.,g. for color: yellow, green, red). In the example below there is value advanced for property Gluing type:
 
@@ -129,7 +129,7 @@ Resource Properties and data connected to them are displayed here. Resource Prop
 
 ![List of Resource Properties](./media/task-activities/list-of-resource-properties.webp)
 
-You can define which columns (and in what order) are displayed here using form settings. Click [here](../../administrator-guide/setting-up-the-application/setting-up-the-application.md#setting-up-the-application) to find out more.
+You can define which columns (and in what order) are displayed here using form settings. Click [here](../../administrator-guide/setting-up-the-application/overview.md) to find out more.
 
 Specific Resource Property can have particular values assigned to it on a Manufacturing Order. This value can be numeric (e.,g. more than 10, equal to 10) or word (e.g., for pressure: high, low). In the example below, the value High is set up for property Pressure:
 
@@ -192,7 +192,7 @@ Displays default printing layout set up for a specific SAP Business One user (lo
 
             ![BOM Layout](./media/task-activities/bom-layout.webp)
         4. Now, a Bill of Materials preview generated for a specific BOM, based on a default layout, is available from the PDC level > Task Tile > Bill of Materials preview icon.
-        5. It is required to input database credentials to see the BOM preview. To avoid doing it each time, you can input the credentials in the [application settings](../../administrator-guide/setting-up-the-application/setting-up-the-application.md#setting-up-the-application).
+        5. It is required to input database credentials to see the BOM preview. To avoid doing it each time, you can input the credentials in the [application settings](../../administrator-guide/setting-up-the-application/overview.md).
     </div>
 </details>
 
@@ -221,7 +221,7 @@ Displays default printing layout set up for a specific SAP Business One user (lo
 
             ![Default Manufacturing Order](./media/task-activities/default-manufacturing-order.webp)
         4. Now, a Manufacturing Order preview generated for a specific MOR, based on a default layout, is available from the PDC level → Task Tile → Manufacturing Order preview icon.
-        5. It is required to input database credentials to see the MOR preview. To avoid doing it each time, you can input the credentials in the [application settings](../../administrator-guide/setting-up-the-application/setting-up-the-application.md#setting-up-the-application).
+        5. It is required to input database credentials to see the MOR preview. To avoid doing it each time, you can input the credentials in the [application settings](../../administrator-guide/setting-up-the-application/overview.md).
     </div>
 </details>
 
@@ -298,7 +298,7 @@ Check also the [Quick Receipt](../customization/optional-functions/quick-receipt
 A team leader can choose Employees that are to be assigned to the task. There is no limit for Employees to be assigned to one task.
 
 :::caution
-    Please note that Employee has to have [Labour](../../administrator-guide/setting-up-the-application/setting-up-the-application.md#setting-up-the-application) assigned to be able to be chosen from the list.
+    Please note that Employee has to have [Labour](../../administrator-guide/setting-up-the-application/overview.md) assigned to be able to be chosen from the list.
 :::
 
 Click checkboxes next to required Employees and click an arrow left icon to assign them to a Task.
@@ -321,7 +321,7 @@ Each Employee can finish work independently, e.g. to change Resources or leave w
 
 ### Activity
 
-This is a standard SAP Business One functionality. You can set up an activity (e.g. Conversation, Note) and activity type (e.g. General, Internal) in [ProcessForce General Settings](../../administrator-guide/setting-up-the-application/setting-up-the-application.md#processforce-settings). When choosing the Activity option from the CompuTec PDC level an Activity with predefined settings are created. This way, an activity is connected to a specific Manufacturing Order, Operation, Resource (depends on from which Task tile it is created), and Employee (logged in to CompuTec PDC).
+This is a standard SAP Business One functionality. You can set up an activity (e.g. Conversation, Note) and activity type (e.g. General, Internal) in [ProcessForce General Settings](../../administrator-guide/setting-up-the-application/overview.md#processforce-settings). When choosing the Activity option from the CompuTec PDC level an Activity with predefined settings are created. This way, an activity is connected to a specific Manufacturing Order, Operation, Resource (depends on from which Task tile it is created), and Employee (logged in to CompuTec PDC).
 
 ### Technical Instruction
 
@@ -335,7 +335,7 @@ Here you can find instructions stored in Manufacturing Order → Operations → 
 
 ### Additional options
 
-Some of the available options are not present on a Task Tile by default. You can reach them by using the [Customization](../customization/optional-functions/optional-functions.md) option.
+Some of the available options are not present on a Task Tile by default. You can reach them by using the Customization option.
 
 ## Example
 

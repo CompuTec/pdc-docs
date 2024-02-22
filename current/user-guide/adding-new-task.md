@@ -15,7 +15,7 @@ A new task can be added to the CompuTec PDC application in three ways:
 1. To add a new task click the "task adding" icon in the main form:
 
     ![Adding Task](./media/adding-new-task/adding-task.webp)
-2. On the top of the form, you can choose between choosing task by Resource or by Manufacturing Order (if a specific resource is set up for a device in [the settings](../administrator-guide/setting-up-the-application/setting-up-the-application.md), only the By Resource card will be available without the search field, only with operations assigned to the specific resource). The following view is for choosing by Resource. To check the workflow for the By Manufacturing Order option, go to point IV (you can set up the default search method in [the settings](../administrator-guide/setting-up-the-application/setting-up-the-application.md)).
+2. On the top of the form, you can choose between choosing task by Resource or by Manufacturing Order (if a specific resource is set up for a device in [the settings](../administrator-guide/setting-up-the-application/overview.md), only the By Resource card will be available without the search field, only with operations assigned to the specific resource). The following view is for choosing by Resource. To check the workflow for the By Manufacturing Order option, go to point 4 (you can set up the default search method in [the settings](../administrator-guide/setting-up-the-application/overview.md)).
 3. Choose Resource from the Resource Code drop-down list. All the tasks related to the specific resource will be displayed on the list. You can filter Resources by choosing a particular Resource Group first.
 
     ![By Resource](./media/adding-new-task/by-resource.webp)
@@ -28,7 +28,7 @@ A new task can be added to the CompuTec PDC application in three ways:
 
     ![Not Assigned Icon](./media/adding-new-task/not-assigned-icon.webp) - task not assigned to any of the employee
 
-    ![Saved Icon](./media/adding-new-task/saved-icon.webp) - saved, not closed. You can determine in [the general settings](../administrator-guide/setting-up-the-application/setting-up-the-application.md#processforce-settings) if tasks with this status will be available from the list
+    ![Saved Icon](./media/adding-new-task/saved-icon.webp) - saved, not closed. You can determine in [the general settings](../administrator-guide/setting-up-the-application/overview.md#processforce-settings) if tasks with this status will be available from the list
 
     Click the required row and click the + icon or the 'Start Run' icon (Clicking the icon in the Start Run column automatically adds Tasks to the main panel with the status Run) to add the task:
 
@@ -75,4 +75,4 @@ A new task can be added to the CompuTec PDC application in three ways:
         ![Pause Icon](./media/adding-new-task/pause-icon.webp) - the task is paused.
 
         Clicking it leads to a task panel where you can set details of a specific task.
-11. Click the status icon to set periods for specific tasks. For more information, click [here](./task-activities/task-activities.md).
+11. Click the status icon to set periods for specific tasks. For more information, click [here](./task-activities/overview.md).

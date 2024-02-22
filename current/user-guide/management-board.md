@@ -12,7 +12,7 @@ Management Board is a CompuTec PDC function that allows managing work performed 
 
 ## Setting Management Board privilege
 
-To have access to the Management Board function, a specific privilege must be assigned to an operating employee. Click [here](../administrator-guide/setting-up-the-application/setting-up-the-application.md#requirements) to find out more.
+To have access to the Management Board function, a specific privilege must be assigned to an operating employee. Click [here](../administrator-guide/setting-up-the-application/overview.md#requirements) to find out more.
 
 ## Management Board main form
 

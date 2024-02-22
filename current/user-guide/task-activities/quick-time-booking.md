@@ -36,7 +36,7 @@ In this section, all the records defined by the filters option from the header a
 
 ![Table Section](./media/quick-time-booking/pdc-table-section.webp)
 
-Click the icon next to Operation Name to expand the line to Resources: more than one Resource can be assigned to an Operation. Clicking the icon next to Resource expands this line to Times: for each of the Resources Setup and Run Time can be defined, then quantity, remarks, and [Close Task](task-activities.md) option.
+Click the icon next to Operation Name to expand the line to Resources: more than one Resource can be assigned to an Operation. Clicking the icon next to Resource expands this line to Times: for each of the Resources Setup and Run Time can be defined, then quantity, remarks, and [Close Task](./overview.md) option.
 
 Use the Save column checkbox to choose which lines are to be saved eventually. Click Saved Lines to see only lines with the Save checkbox checked.
 

@@ -8,4 +8,4 @@ After the successful configuration the configured devices will be available to c
 
 ![Scales](./media/working-with-scales/scales.webp)
 
-Click [here](../../user-guide/customization/optional-functions/weight-scale-module/weight-scale-module.md) to get more information on how to use the CompuTec PDC weighting module.
+Click [here](../../user-guide/customization/optional-functions/weight-scale-module/overview.md) to get more information on how to use the CompuTec PDC weighting module.

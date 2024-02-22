@@ -34,5 +34,5 @@ This document provides a step-by-step guide on how to install the CompuTec PDC a
 6. The service is ready to run. You can start by clicking the shortcut created on the Windows program list.
 
 :::info
-    Remember that the application needs to be [set up](../setting-up-the-application/setting-up-the-application.md) correctly after the installation.
+    Remember that the application needs to be set up correctly after the installation.
 :::

@@ -40,5 +40,5 @@ Open the view and choose the All option for the Resources:
 
 ![All Resources](./media/resource-view/all-resources.webp)
 
-After defining this view, you can assign it in [PDC Settings](./pdc-settings.md).
+After defining this view, you can assign it in [PDC Settings](./overview.md).
 In this example, in CompuTec PDC, you can see only tasks for the following Resources: Rsc01, Rsc02, and Rsc03.

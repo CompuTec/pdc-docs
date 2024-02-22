@@ -28,7 +28,7 @@ Here you can find a step-by-step guide on how to configure CompuTec WeightScale 
 
     - **Id** – a unique identifier of the scale (automatically generated)
     - **Scale name** – the name of the weighting device (e.g. manufacturer)
-    - **Localization** – location of the device (check a [related PDC Settings option](../setting-up-the-application/pdc-settings/pdc-settings.md#assigning-pdc-settings-templates))
+    - **Localization** – location of the device (check a [related PDC Settings option](../setting-up-the-application/pdc-settings/overview.md#assigning-pdc-settings-templates))
     - **Barcode** – a barcode or a serial number of the device
     - **Tolerance** – weight tolerance
     - **Range From** – weighing range (start)
@@ -59,7 +59,7 @@ Here you can find a step-by-step guide on how to configure CompuTec WeightScale 
     </details>
 
     :::warning
-        The address and port in the [corresponding CompuTec PDC Setting](../setting-up-the-application/setting-up-the-application.md#ct-labels-settings) must be identical to those entered here.
+        The address and port in the [corresponding CompuTec PDC Setting](../setting-up-the-application/overview.md#ct-labels-settings) must be identical to those entered here.
     :::
 
     ![Manager](./media/computec-gateway-manager/manager-1.webp)
