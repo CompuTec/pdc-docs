@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # RFID
@@ -45,7 +45,7 @@ Click Save – a user is assigned to an RFID identifier and ready to use.
 Assigned ID is stored in SAP B1 Employee Master Data:
 
 :::info Path
-Human Resources → Employee Master Data
+    Human Resources → Employee Master Data
 :::
 
 ![PDC RFID Settings](./media/rfid/employee-settings.webp)

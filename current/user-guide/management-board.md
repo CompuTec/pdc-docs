@@ -7,7 +7,7 @@ sidebar_position: 3
 Management Board is a CompuTec PDC function that allows managing work performed on any resource in a system. A straightforward graphic interface provides an easy and quick insight into past, current, and planned tasks, stating details like planned and actual work time or employee assigned to perform a specific work.
 
 :::warning
-To have access to the Management Board function, a specific privilege must be assigned to an operating employee. You can check how to do that [below](#setting-management-board-privilege).
+    To have access to the Management Board function, a specific privilege must be assigned to an operating employee. You can check how to do that [below](#setting-management-board-privilege).
 :::
 
 ## Setting Management Board privilege
@@ -49,13 +49,9 @@ Click the ok button to confirm a selection. Click the filter icon to process wit
 You can filter displayed tasks by:
 
 - Resource,
-
 - Resource group,
-
 - Employee,
-
 - Manufacturing Order,
-
 - Status.
 
 After setting desired values, you can enable or disable filtering by clicking the dedicated value:
@@ -83,11 +79,8 @@ You can use an icon highlighted in the screenshot below to maximize and minimize
 Tasks can be grouped by:
 
 - Manufacturing Order,
-
 - Employee,
-
 - Resource Group,
-
 - Status.
 
 ## Resource Tile
@@ -97,7 +90,6 @@ A task tile within Management Board is a graphic representation of a specific ta
 ![Resource Tile](./media/management-board/management-board-resource-tile.webp)
 
 1. Status icon – icon communicates one of the possible statuses of the task: set up, run, downtime. Clicking it leads to a Task Panel of a specific task. You can find more information about it here.
-
 2. Resource history – clicking it displays the history of use of the specific resource.
 
     ![Resource History](./media/management-board/management-board-resource-history.webp)
@@ -111,23 +103,17 @@ A task tile within Management Board is a graphic representation of a specific ta
     ![Planned Task Icon](./media/management-board/planned-task-icon.webp) - planned task. It is possible to assign an employee to a task with this status. To do that, click the icon and choose an employee from the list.
 
     ![Resource History](./media/management-board/resource-history-employee.webp)
-
 3. Time graph – a graphic representation of planned and current time:
 
     ![Management Board Graph](./media/management-board/management-board-graph.webp)
 
-    a. a point of 0% progress, e.g., noon in planned 12:00-14:00 work time,
-
-    b. a point of 100% progress, e.g., 14:00 in planned 12:00-14:00 work time,
-
-    c. a bar of real progress,
-
-    d. a bar of planned progress.
+    1. a point of 0% progress, e.g., noon in planned 12:00-14:00 work time,
+    2. a point of 100% progress, e.g., 14:00 in planned 12:00-14:00 work time,
+    3. a bar of real progress,
+    4. a bar of planned progress.
 
     **Example**:
 
     An example used on a picture above a bar of planned progress indicates that the end of the scheduled work period has already passed. But a bar of real progress shows that work has stopped halfway through.
-
 4. Resource code.
-
 5. Resource name.

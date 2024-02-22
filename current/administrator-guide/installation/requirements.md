@@ -5,31 +5,32 @@ sidebar_position: 1
 # Requirements
 
 :::note
-CompuTec PDC requires .NET Framework to work correctly. **The minimum version of the .NET Framework** supported by CompuTec PDC **is 4.7.1**.
+    CompuTec PDC requires .NET Framework to work correctly. **The minimum version of the .NET Framework** supported by CompuTec PDC **is 4.7.1**.
 
-<details>
-  <summary>Click to see how to check .NET Framework version</summary>
-    1. Type in the following command in Command Prompt from Windows applications and click enter:
+    <details>
+        <summary>Click to see how to check .NET Framework version</summary>
+        <div>
+            1. Type in the following command in Command Prompt from Windows applications and click enter:
 
-        ```bat
-        reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\full" /v version
-        ```
+                ```bat
+                reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\full" /v version
+                ```
 
-        ![Prompt](./media/requirements/net-version-prompt.webp)
+                ![Prompt](./media/requirements/net-version-prompt.webp)
+            2. The result will show the .NET Framework version:
 
-    2. The result will show the .NET Framework version:
+                ![Result](./media/requirements/net-version-result.webp)
+        </div>
+    </details>
 
-        ![Result](./media/requirements/net-version-result.webp)
-</details>
-
-We recommend installing the latest version of .NET Framework – you can do it using the dedicated tool Windows Update or manually downloading the required files from the Microsoft site.
+    We recommend installing the latest version of .NET Framework – you can do it using the dedicated tool Windows Update or manually downloading the required files from the Microsoft site.
 :::
 
 ## Steps required to perform before installation of CompuTec PDC
 
 1. Install AppEngine, the CompuTec ProcessForce plugin, and the CompuTec PDC plugin in corresponding versions. <!-- TODO: Links -->
 
-2. Install SAP Crystal Reports runtime engine for .NET Framework 32-bit or 64-bit. You can install it from SAP Business One installation package -> Client\CRRuntime or Client.x64\CRRuntime. It is required if the user wants to open Crystal Reports directly from the application.
+2. Install SAP Crystal Reports runtime engine for .NET Framework 32-bit or 64-bit. You can install it from SAP Business One installation package -> `Client\CRRuntime or Client.x64\CRRuntime`. It is required if the user wants to open Crystal Reports directly from the application.
 
 3. Install CompuTec ProcessForce API 32-bit or 64-bit.
 
@@ -42,7 +43,6 @@ Since this version, you need to perform the following preparation to support Cry
 - Installed SAP APIGateway Service in SLD configuration:
 
   ![SLD configuration](./media/requirements/sld-configuration.webp)
-
 - define an address in CompuTec PDC Settings. <!-- TODO: Link -->
 
   ![SAP B1 API Gateway](./media/requirements/pdc-settings.webp)

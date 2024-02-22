@@ -1,9 +1,13 @@
+---
+sidebar_position: 4
+---
+
 # Customized Task List
 
 This function allows creating a customized table view when adding a task by Resource. This means that based on a few mandatory fields, it is possible to give information from other objects in SAP Business One or ProcessForce by creating an SQL code.
 
 :::caution
-Please note that when using this function, all interactive icons are unavailable.
+    Please note that when using this function, all interactive icons are unavailable.
 :::
 
 ---
@@ -17,11 +21,8 @@ To create a view, perform the following steps:
 Rules:
 
 - The code has to have a condition written like `where mor16."U_RscCode" =@RscCode`
-
 - The code has to be based on CT_PF tables like `OMOR and/or MOR12 and/or MOR16`
-
 - Columns' aliases need to be written with a floor like `1THWORD_2THWORD`
-
 - `"DocEntry"` and `mor16."U_LineNum"` are always obligatory
 
 ```sql title="Example"

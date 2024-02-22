@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Resources View
@@ -15,9 +15,7 @@ The option requires the use of AppEngine's MO360 plugin. Click here<!-- TODO: Li
 Minimal related versions:
 
 - ProcessForce: 9.30 PL14 R10 or 10.0 RL14,
-
 - AppEngine: 2.10.3.1, 2.93.3.1 or 2.10.5.1, 2.93.5.1,
-
 - MO360 - latest.
 
 ## Usage

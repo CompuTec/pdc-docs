@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Weighting device drivers
@@ -33,9 +33,7 @@ The devices are available to choose from the CompuTec Gateway Manager:
 It is possible to create your driver for a device not listed in the available devices list from the previous point.
 
 :::note
-
-If a required device is not on the list in the previous paragraph and you are unwilling or unable to create a driver, the CompuTec team can do it for you for a fee. To order such a service, please create a support ticket at [CompuTec Support](https://support.computec.pl).
-
+    If a required device is not on the list in the previous paragraph and you are unwilling or unable to create a driver, the CompuTec team can do it for you for a fee. To order such a service, please create a support ticket at [CompuTec Support](https://support.computec.pl).
 :::
 
 ### A driver creation
@@ -45,17 +43,13 @@ The following example is created using Microsoft Visual Studio.
 1. Create a project:
 
     ![Driver](./media/weighting-device-drivers/new-driver-project.webp)
-
 2. Add dependencies to the provided libraries:
 
     - Computec.WeightScale.dll<!-- TODO: Link -->
-
     - CompuTec.ProcessForce.WeightScaleBase.dll<!-- TODO: Link -->
-
 3. Prepare a class of the drive:
 
     ![Class preparation](./media/weighting-device-drivers/class-preparation.webp)
-
 4. Implement the methods and update them in accordance with the device requirements:
 
     ![Method implementation](./media/weighting-device-drivers/method-implementation.webp)

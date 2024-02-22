@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Mettler Toledo
 
 ## Introduction
@@ -5,15 +9,13 @@
 To correctly configure a weight scale, it is required to create a Template and assign it to the weight scale. Next, you must choose a work mode for the scales and assign the Template to the scale work mode.
 
 :::note
-This section was created based on the MettlerToledoICS429 model configuration.
+    This section was created based on the MettlerToledoICS429 model configuration.
 :::
 
 ## Defining a Template
 
 - Go to the Communication option in the main menu.
-
 - Choose the Define Template option.
-
 - Choose Template 1 and set up what will be pointed/sent by the weight scale. Set up the following details:
 
   Line 1: Date
@@ -43,11 +45,8 @@ This section was created based on the MettlerToledoICS429 model configuration.
 ## Choosing Mode for Weight Scales
 
     - Go to the Communication option in the main menu
-
     - choose COM2
-
     - choose Mode
-
     - choose Continuous print.
 
 ![Mettler](./media/mettler-toledo/mettler-07.webp)
@@ -55,18 +54,12 @@ This section was created based on the MettlerToledoICS429 model configuration.
 ## Assigning the defined Template to the weight scales
 
     - Choose the Application option from the menu
-
     - choose Straight weighing option
-
     - choose Printout
-
     - choose COM2
-
     - choose COM2 again
-
     - choose the Template name of the Template that was defined in the first step ('Template 1' in this example)
-
-    -. click OK to save the changes.
+    - click OK to save the changes.
 
 ![Mettler](./media/mettler-toledo/mettler-08.webp)
 

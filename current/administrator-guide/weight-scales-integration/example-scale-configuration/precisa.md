@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Precisa
 
 Here, you can find information on the configuration of Precisa devices to work with CompuTec PDC: tested devices, device configuration, Gateway configuration, etc.

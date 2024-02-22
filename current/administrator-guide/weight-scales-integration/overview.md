@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 ---
 
-# Weight scales integration
+# Overview
 
 In this section, you can check how to configure a connection between CompuTec PDC and weighing devices.
 

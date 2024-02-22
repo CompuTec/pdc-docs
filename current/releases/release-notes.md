@@ -5,7 +5,7 @@ sidebar_position: 2
 # Release Notes
 
 :::info
-Installer is ready to download from here<!-- TODO: Link -->.
+    Installer is ready to download from here<!-- TODO: Link -->.
 :::
 
 ## CompuTec PDC 3.10.21.1

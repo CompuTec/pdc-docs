@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# Weight scale module
+# Overview
 
 The weight scale module supports Issue to Production based on weight documents by integrating weight scaling devices.
 
@@ -13,9 +13,7 @@ The icon coloring indicates an approximate level of completion of the issue to p
 ---
 
 :::caution
-
-It is required to configure the connection to a weighing device before starting work with this module. You can check how to do this [here](../../../../administrator-guide/weight-scales-integration/weight-scales-integration.md).
-
+    It is required to configure the connection to a weighing device before starting work with this module. You can check how to do this [here](../../../../administrator-guide/weight-scales-integration/weight-scales-integration.md).
 :::
 
 ## Step 1: Choosing an Item
@@ -53,13 +51,9 @@ The lower right panel holds information on previous issues in this weigh documen
 The upper right panel holds information from a specific weighing device:
 
 - Zero – zeroing the scale
-
 - Tare – weighing a container first and excluding its weight from the final weight
-
 - Start/Stop – beginning and ending weighing
-
 - the result of weighing
-
 - Gross – (if the Tare option is used) combine the weight of the container and material.
 
 It is impossible to save weighed value if it exceeds the Remaining Quantity. It also changes its color to red in this case.
